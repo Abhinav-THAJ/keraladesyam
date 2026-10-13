@@ -67,12 +67,12 @@ export default function KeralaPage() {
           </div>
 
           {/* Section Title & Sub-category Bar */}
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-2">
-            <div className="flex items-baseline gap-3">
-              <h1 className="font-headline text-3xl md:text-4xl text-ink-midnight font-bold tracking-tight">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 md:gap-4 pb-2">
+            <div className="flex items-baseline gap-2.5 sm:gap-3">
+              <h1 className="font-headline text-2xl sm:text-3xl md:text-4xl text-ink-midnight font-bold tracking-tight">
                 കേരളം
               </h1>
-              <span className="text-xs text-secondary uppercase tracking-widest font-bold">
+              <span className="text-[11px] sm:text-xs text-secondary uppercase tracking-widest font-bold">
                 State Newsroom
               </span>
             </div>
@@ -173,14 +173,14 @@ export default function KeralaPage() {
               filteredArticles.map((art, index) => (
                 <article
                   key={art.id}
-                  className="bg-surface-pure rounded p-5 shadow-sm border border-slate-border flex flex-col md:flex-row gap-5 group"
+                  className="bg-surface-pure rounded p-3.5 sm:p-5 shadow-sm border border-slate-border flex flex-col md:flex-row gap-3.5 sm:gap-5 group"
                 >
                   {/* Article Thumbnail */}
                   <div className="md:w-5/12 overflow-hidden rounded shrink-0">
                     <img
                       src={art.imageUrl}
                       alt={art.title}
-                      className="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded"
+                      className="w-full h-44 sm:h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded"
                     />
                   </div>
 
@@ -189,18 +189,18 @@ export default function KeralaPage() {
                     <div>
                       <div className="flex items-center justify-between mb-1.5 text-xs">
                         <span
-                          className="font-bold uppercase tracking-wider text-[11px]"
+                          className="font-bold uppercase tracking-wider text-[10px] sm:text-[11px]"
                           style={{ color: art.categoryColor }}
                         >
                           {art.category}
                         </span>
                         <div className="flex items-center gap-2">
-                          <span className="text-secondary text-[11px] flex items-center gap-1">
+                          <span className="text-secondary text-[10px] sm:text-[11px] flex items-center gap-1">
                             <Clock className="w-3 h-3" /> {art.timeAgo}
                           </span>
                           <button
                             onClick={() => toggleBookmark(art.id)}
-                            className="text-secondary hover:text-primary transition-colors"
+                            className="text-secondary hover:text-primary transition-colors p-1"
                             title="ബുക്ക്‌മാർക്ക്"
                           >
                             <Bookmark
@@ -213,12 +213,12 @@ export default function KeralaPage() {
                       </div>
 
                       <Link href={`/article/${art.id}`}>
-                        <h3 className="font-headline text-lg font-bold text-ink-midnight group-hover:text-primary transition-colors leading-snug mb-2">
+                        <h3 className="font-headline text-base sm:text-lg font-bold text-ink-midnight group-hover:text-primary transition-colors leading-snug mb-2">
                           {art.title}
                         </h3>
                       </Link>
 
-                      <p className="text-xs text-on-surface-variant line-clamp-3 leading-relaxed mb-3">
+                      <p className="text-xs text-on-surface-variant line-clamp-2 sm:line-clamp-3 leading-relaxed mb-3">
                         {art.lead}
                       </p>
                     </div>

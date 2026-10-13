@@ -84,18 +84,18 @@ export default function PravasiPage() {
                   24x7 ആഗോള മലയാളി ന്യൂസ് ഡെസ്ക്
                 </span>
               </div>
-              <h1 className="font-headline text-3xl md:text-4xl text-ink-midnight font-bold tracking-tight">
+              <h1 className="font-headline text-2xl sm:text-3xl md:text-4xl text-ink-midnight font-bold tracking-tight">
                 പ്രവാസി ലോകം
               </h1>
             </div>
 
-            <div className="flex items-center gap-3 text-secondary text-xs">
-              <span className="flex items-center gap-1 bg-surface-container px-3 py-1.5 rounded text-ink-midnight font-medium">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-secondary text-xs">
+              <span className="flex items-center gap-1 bg-surface-container px-2.5 sm:px-3 py-1 sm:py-1.5 rounded text-ink-midnight font-medium text-[11px] sm:text-xs">
                 <Clock className="w-3.5 h-3.5 text-primary" /> IST 14:32 • GST 13:02 • AST 12:02
               </span>
               <button
                 onClick={() => alert('പ്രവാസി അടിയന്തര ഹെൽപ്പ്‌ലൈൻ: നോർക്ക റൂട്ട്സ് ടോൾ ഫ്രീ 1800 425 3939')}
-                className="flex items-center gap-1 bg-primary text-white px-3 py-1.5 rounded hover:bg-editorial-crimson transition-colors font-medium shadow-xs"
+                className="flex items-center gap-1 bg-primary text-white px-2.5 sm:px-3 py-1 sm:py-1.5 rounded hover:bg-editorial-crimson transition-colors font-medium shadow-xs text-[11px] sm:text-xs"
               >
                 <Bell className="w-3.5 h-3.5" /> ഹെൽപ്പ്‌ലൈൻ
               </button>
@@ -108,7 +108,7 @@ export default function PravasiPage() {
               <button
                 key={ctry.id}
                 onClick={() => setSelectedCountry(ctry.id)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-1.5 ${
+                className={`px-3 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors flex items-center gap-1.5 ${
                   selectedCountry === ctry.id
                     ? 'bg-ink-midnight text-white shadow-xs'
                     : 'bg-surface-container text-on-surface hover:bg-surface-container-high'
@@ -130,13 +130,13 @@ export default function PravasiPage() {
             {pravasiArticles.map((art) => (
               <article
                 key={art.id}
-                className="bg-surface-pure rounded p-5 shadow-sm border border-slate-border flex flex-col md:flex-row gap-5 group"
+                className="bg-surface-pure rounded p-3.5 sm:p-5 shadow-sm border border-slate-border flex flex-col md:flex-row gap-3.5 sm:gap-5 group"
               >
                 <div className="md:w-5/12 overflow-hidden rounded shrink-0">
                   <img
                     src={art.imageUrl}
                     alt={art.title}
-                    className="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded"
+                    className="w-full h-44 sm:h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded"
                   />
                 </div>
 
@@ -144,23 +144,23 @@ export default function PravasiPage() {
                   <div>
                     <div className="flex items-center justify-between mb-1.5 text-xs">
                       <span
-                        className="font-bold uppercase tracking-wider text-[11px]"
+                        className="font-bold uppercase tracking-wider text-[10px] sm:text-[11px]"
                         style={{ color: art.categoryColor }}
                       >
                         {art.category}
                       </span>
-                      <span className="text-secondary text-[11px] flex items-center gap-1">
+                      <span className="text-secondary text-[10px] sm:text-[11px] flex items-center gap-1">
                         <Clock className="w-3 h-3" /> {art.timeAgo}
                       </span>
                     </div>
 
                     <Link href={`/article/${art.id}`}>
-                      <h3 className="font-headline text-lg font-bold text-ink-midnight group-hover:text-primary transition-colors leading-snug mb-2">
+                      <h3 className="font-headline text-base sm:text-lg font-bold text-ink-midnight group-hover:text-primary transition-colors leading-snug mb-2">
                         {art.title}
                       </h3>
                     </Link>
 
-                    <p className="text-xs text-on-surface-variant line-clamp-3 leading-relaxed mb-3">
+                    <p className="text-xs text-on-surface-variant line-clamp-2 sm:line-clamp-3 leading-relaxed mb-3">
                       {art.lead}
                     </p>
                   </div>

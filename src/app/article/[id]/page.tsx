@@ -157,12 +157,12 @@ export default function ArticleDetailPage() {
         </div>
 
         {/* Article Header & Lead Area */}
-        <header className="pt-6 pb-4">
-          <h1 className="font-headline text-3xl md:text-5xl text-ink-midnight font-bold tracking-tight mb-3 leading-[1.2]">
+        <header className="pt-4 sm:pt-6 pb-4">
+          <h1 className="font-headline text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-ink-midnight font-bold tracking-tight mb-2.5 sm:mb-3 leading-[1.25]">
             {article.title}
           </h1>
 
-          <p className="text-base md:text-xl text-on-surface-variant leading-relaxed max-w-4xl mb-6 font-normal">
+          <p className="text-sm sm:text-base md:text-xl text-on-surface-variant leading-relaxed max-w-4xl mb-4 sm:mb-6 font-normal">
             {article.lead}
           </p>
 
@@ -351,7 +351,7 @@ export default function ArticleDetailPage() {
                   value={commentAuthor}
                   onChange={(e) => setCommentAuthor(e.target.value)}
                   placeholder="നിങ്ങളുടെ പേര്, സ്ഥലം..."
-                  className="w-full bg-parchment-base border border-slate-border rounded px-3 py-2 text-xs text-ink-midnight focus:outline-none focus:border-primary"
+                  className="w-full bg-parchment-base border border-slate-border rounded px-3 py-2 text-base md:text-xs text-ink-midnight focus:outline-none focus:border-primary"
                 />
                 <textarea
                   rows={3}
@@ -359,7 +359,7 @@ export default function ArticleDetailPage() {
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
                   placeholder="ഈ വാർത്തയെക്കുറിച്ചുള്ള നിങ്ങളുടെ അഭിപ്രായം ഇവിടെ രേഖപ്പെടുത്തുക..."
-                  className="w-full bg-parchment-base border border-slate-border rounded p-3 text-xs text-ink-midnight focus:outline-none focus:border-primary"
+                  className="w-full bg-parchment-base border border-slate-border rounded p-3 text-base md:text-xs text-ink-midnight focus:outline-none focus:border-primary"
                 />
                 <div className="flex justify-end">
                   <button

@@ -225,13 +225,13 @@ export default function HomePage() {
           {/* MIDDLE COLUMN (50% / 6 cols): Lead Story, Secondary 2-Col Stories, Photo Essay */}
           <section className="lg:col-span-6 flex flex-col gap-6 order-1 lg:order-2">
             {/* Lead Broadsheet Hero Article */}
-            <article className="bg-surface-pure rounded p-5 shadow-sm border border-slate-border relative group">
+            <article className="bg-surface-pure rounded p-3.5 sm:p-5 shadow-sm border border-slate-border relative group">
               {/* Category & Badge */}
-              <div className="flex items-center justify-between mb-3 text-xs">
-                <span className="bg-primary text-white px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider">
+              <div className="flex items-center justify-between mb-2.5 text-xs">
+                <span className="bg-primary text-white px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-bold uppercase tracking-wider">
                   പ്രധാന വാർത്ത
                 </span>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5">
                   <button
                     onClick={(e) => handleShare(e, heroArticle.id)}
                     className="p-1.5 text-secondary hover:text-primary transition-colors rounded-full hover:bg-surface-container"
@@ -259,17 +259,17 @@ export default function HomePage() {
 
               {/* Dominant Headline */}
               <Link href={`/article/${heroArticle.id}`}>
-                <h1 className="font-headline text-2xl md:text-3xl text-ink-midnight font-bold leading-tight group-hover:text-primary transition-colors mb-3">
+                <h1 className="font-headline text-lg sm:text-2xl md:text-3xl text-ink-midnight font-bold leading-snug group-hover:text-primary transition-colors mb-2.5">
                   {heroArticle.title}
                 </h1>
               </Link>
 
               {/* Lead Image */}
-              <Link href={`/article/${heroArticle.id}`} className="block overflow-hidden rounded relative mb-4">
+              <Link href={`/article/${heroArticle.id}`} className="block overflow-hidden rounded relative mb-3 sm:mb-4">
                 <img
                   src={heroArticle.imageUrl}
                   alt={heroArticle.title}
-                  className="w-full h-64 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-48 sm:h-64 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <span className="absolute bottom-2 left-2 bg-ink-midnight/80 backdrop-blur text-white text-[10px] px-2 py-0.5 rounded">
                   {heroArticle.readTime} • ശബ്ദരൂപം ലഭ്യമാണ്
@@ -277,7 +277,7 @@ export default function HomePage() {
               </Link>
 
               {/* Lead Paragraph with Newspaper Drop-Cap */}
-              <p className="newspaper-lead text-sm md:text-base text-on-surface-variant leading-relaxed mb-4">
+              <p className="newspaper-lead text-xs sm:text-sm md:text-base text-on-surface-variant leading-relaxed mb-3 sm:mb-4">
                 {heroArticle.paragraphs[0]}
               </p>
 

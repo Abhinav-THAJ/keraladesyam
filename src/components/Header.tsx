@@ -63,13 +63,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-surface-pure/95 backdrop-blur-md shadow-[0_2px_8px_rgba(10,25,47,0.04)] border-b border-slate-border">
+      <header className="relative md:sticky md:top-0 z-40 bg-surface-pure/95 backdrop-blur-md shadow-[0_2px_8px_rgba(10,25,47,0.04)] border-b border-slate-border">
         {/* Top utility ribbon */}
         <div className="bg-ink-midnight text-surface-pure text-caption">
-          <div className="max-w-[1360px] mx-auto px-4 md:px-margin-desktop h-9 flex items-center justify-between">
-            <div className="flex items-center gap-space-lg text-xs">
-              <span className="flex items-center gap-1.5">
-                <Calendar className="w-3.5 h-3.5 text-secondary-fixed-dim" />
+          <div className="max-w-[1360px] mx-auto px-3 md:px-margin-desktop h-8 md:h-9 flex items-center justify-between">
+            <div className="flex items-center gap-space-lg text-[11px] md:text-xs">
+              <span className="flex items-center gap-1">
+                <Calendar className="w-3 h-3 md:w-3.5 md:h-3.5 text-secondary-fixed-dim" />
                 <span>2025 മാർച്ച് 29, ശനി</span>
               </span>
               <div className="hidden md:flex items-center gap-1.5 cursor-pointer group">
@@ -162,18 +162,18 @@ export default function Header() {
         </div>
 
         {/* Main Masthead Banner */}
-        <div className="max-w-[1360px] mx-auto px-4 md:px-margin-desktop h-20 flex items-center justify-between gap-space-lg">
+        <div className="max-w-[1360px] mx-auto px-3 md:px-margin-desktop h-16 md:h-20 flex items-center justify-between gap-2 md:gap-space-lg">
           {/* Logo & Subtitle */}
-          <div className="flex items-center gap-space-md">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 rounded bg-editorial-crimson flex items-center justify-center text-white shadow-sm font-headline text-2xl font-bold tracking-tight border border-white/20">
+          <div className="flex items-center gap-2 md:gap-space-md">
+            <Link href="/" className="flex items-center gap-2 md:gap-3 group">
+              <div className="w-9 h-9 md:w-11 md:h-11 rounded bg-editorial-crimson flex items-center justify-center text-white shadow-sm font-headline text-xl md:text-2xl font-bold tracking-tight border border-white/20 shrink-0">
                 കേ
               </div>
-              <div className="flex flex-col">
-                <span className="font-headline text-3xl md:text-4xl text-primary font-bold tracking-tight leading-none group-hover:text-editorial-crimson transition-colors">
+              <div className="flex flex-col min-w-0">
+                <span className="font-headline text-2xl md:text-4xl text-primary font-bold tracking-tight leading-none group-hover:text-editorial-crimson transition-colors">
                   കേരളദേശം
                 </span>
-                <span className="font-caption text-[11px] text-secondary tracking-wider uppercase mt-1 font-bold">
+                <span className="font-caption text-[9px] md:text-[11px] text-secondary tracking-wider uppercase mt-0.5 md:mt-1 font-bold truncate max-w-[190px] sm:max-w-none">
                   KERALA DESAM • GLOBAL MALAYALAM NEWS NETWORK
                 </span>
               </div>
@@ -344,8 +344,8 @@ export default function Header() {
 
         {/* Breaking News Ticker Ribbon */}
         <div className="bg-parchment-base border-t border-slate-border">
-          <div className="max-w-[1360px] mx-auto px-4 md:px-margin-desktop h-10 flex items-center overflow-hidden">
-            <div className="flex items-center bg-primary text-on-primary px-3 py-1 font-label-ticker text-xs uppercase shrink-0 gap-1.5 shadow-sm rounded-sm">
+          <div className="max-w-[1360px] mx-auto px-3 md:px-margin-desktop h-8 md:h-10 flex items-center overflow-hidden">
+            <div className="flex items-center bg-primary text-on-primary px-2 py-0.5 md:px-3 md:py-1 font-label-ticker text-[10px] md:text-xs uppercase shrink-0 gap-1 md:gap-1.5 shadow-sm rounded-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-surface-pure animate-ping" />
               <span>ബ്രേക്കിംഗ്</span>
             </div>

@@ -24,18 +24,39 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
 }
 
-/* Custom newspaper styling rules */
+/* Custom responsive newspaper styling rules */
 .newspaper-lead::first-letter {
   font-family: var(--font-newsreader);
-  float: left;
-  font-size: 3.5rem;
-  line-height: 0.85;
-  padding-right: 0.5rem;
-  padding-top: 0.2rem;
-  color: #9e001f;
   font-weight: 700;
+  color: #9e001f;
+}
+
+@media (max-width: 640px) {
+  .newspaper-lead::first-letter {
+    float: none;
+    display: inline;
+    font-size: 1.4rem;
+    padding-right: 0.1rem;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 641px) {
+  .newspaper-lead::first-letter {
+    float: left;
+    font-size: 3.2rem;
+    line-height: 0.85;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+  }
 }
 
 /* Smooth horizontal scrollbar hiding */
