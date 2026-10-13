@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html lang="ml"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>വാർത്താവീഥി - Vartha Veethi</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800&amp;family=Noto+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-high":"#dee8ff","inverse-surface":"#263143","outline-variant":"#e5bdbb","on-error":"#ffffff","slate-border":"#E2E8F0","surface":"#f9f9ff","surface-container":"#e7eeff","on-tertiary-fixed-variant":"#004b6f","secondary":"#515f78","secondary-fixed-dim":"#b9c7e4","on-secondary-fixed-variant":"#39475f","on-tertiary-container":"#c9e6ff","on-secondary":"#ffffff","surface-pure":"#FFFFFF","secondary-container":"#d2e0fe","error":"#ba1a1a","inverse-primary":"#ffb3b1","surface-bright":"#f9f9ff","tertiary-container":"#006b9a","tertiary-fixed":"#c9e6ff","opinion-ochre":"#B45309","on-secondary-container":"#55637d","on-background":"#111c2d","surface-container-lowest":"#ffffff","parchment-base":"#FAFAF9","on-tertiary":"#ffffff","background":"#f9f9ff","surface-container-low":"#f0f3ff","surface-dim":"#cfdaf2","secondary-fixed":"#d6e3ff","tertiary-fixed-dim":"#8aceff","primary-container":"#c8102e","on-tertiary-fixed":"#001e2f","error-container":"#ffdad6","editorial-crimson":"#C8102E","on-primary-container":"#ffdad8","on-secondary-fixed":"#0d1c32","on-surface":"#111c2d","on-primary-fixed":"#410007","surface-container-highest":"#d8e3fb","tertiary":"#005277","on-surface-variant":"#5c403f","on-primary":"#ffffff","surface-variant":"#d8e3fb","on-error-container":"#93000a","on-primary-fixed-variant":"#92001c","live-alert":"#DC2626","primary-fixed":"#ffdad8","primary":"#9e001f","ink-midnight":"#0A192F","slate-border-subtle":"#F1F5F9","outline":"#906f6e","primary-fixed-dim":"#ffb3b1","surface-tint":"#bf0229","inverse-on-surface":"#ecf1ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","gutter-desktop":"1.75rem","margin-desktop":"3rem","space-sm":"0.5rem","space-md":"0.875rem","space-xl":"2.25rem","margin":"1rem","gutter":"1.25rem","space-xs":"0.25rem","space-xxl":"3.5rem"},"fontFamily":{"body-lg":["Noto Sans"],"lead":["Noto Sans"],"headline-sm":["Newsreader"],"caption":["Noto Sans"],"body-sm":["Noto Sans"],"headline-lg":["Newsreader"],"label-badge":["Noto Sans"],"headline-lg-mobile":["Newsreader"],"body-md":["Noto Sans"],"headline-xl":["Newsreader"],"headline-xl-mobile":["Newsreader"],"label-ticker":["Noto Sans"],"headline-md":["Newsreader"]},"fontSize":{"body-lg":["17px",{"lineHeight":"28px","fontWeight":"400"}],"lead":["18px",{"lineHeight":"30px","fontWeight":"400"}],"headline-sm":["19px",{"lineHeight":"26px","fontWeight":"600"}],"caption":["12px",{"lineHeight":"16px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-badge":["11px",{"lineHeight":"14px","letterSpacing":"0.05em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"headline-xl":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-ticker":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}]}}}};</script>  <link rel="stylesheet" href="assets/css/portal.css"/>
+</head><body class="bg-parchment-base font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-pure/95 backdrop-blur-md shadow-[0_2px_8px_rgba(10,25,47,0.04)]"><div class="bg-ink-midnight text-surface-pure"><div class="max-w-[1360px] mx-auto px-margin-desktop h-9 flex items-center justify-between font-caption text-caption"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-secondary-fixed-dim">calendar_today</span><span>2025 മാർച്ച് 29, ശനി</span></span><span class="hidden md:flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-opinion-ochre">wb_sunny</span><span>കൊച്ചി 31°C</span></span><div class="hidden lg:flex items-center gap-2"><span class="text-secondary-fixed-dim">പതിപ്പുകൾ:</span><span class="cursor-pointer text-surface-pure hover:underline">തിരുവനന്തപുരം</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">കൊച്ചി</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">കോഴിക്കോട്</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">ഗൾഫ് / NRI</span></div></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-1 text-tertiary-fixed hover:underline" data-path="epaper" href="epaper.html"><span class="material-symbols-outlined text-sm">newspaper</span><span>ഇ-പേപ്പർ</span></a><div class="flex items-center gap-1 bg-ink-midnight/80 px-1.5 py-0.5 rounded"><span class="text-secondary-fixed-dim text-caption mr-1">അക്ഷരവലിപ്പം:</span><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors" title="ചെറുത്">A-</button><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors font-bold" title="സാധാരണ">A</button><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors" title="വലുത്">A+</button></div></div></div></div><div class="max-w-[1360px] mx-auto px-margin-desktop h-20 flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><a href="index.html" class="flex items-center gap-space-md"><img alt="Vartha Veethi Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X5RAdrH3DaCoyIIwCzukOlwxTmzaCexpvGWiLPA7SSKA2yaVTSsYBYWCnCoqOiO4m-fWtqkYTdwJizi_R2fPGeBSqIDGmSDBQTKjnsnSrpkXhwdWGmEmvvLnDInQDuy54m0kBsG5PvAlJVlrqc087Om_c33SZMX9DMY2Qfp40aEfUmPSAw0nyzx7gyQnHYzbuSlpMnCnqMBKaoZS3rfA05pFNr2CmEfdZorMgJBTrTIZYtcx0Al_mrtmk"/><div class="flex flex-col"><span class="font-headline-lg text-headline-lg text-primary tracking-tight leading-none">വാർത്താവീഥി</span><span class="font-caption text-caption text-secondary tracking-widest uppercase mt-0.5">VARTHA VEETHI • KERALA'S VOICE</span></div></a></div><div class="hidden md:flex items-center bg-error-container/40 text-editorial-crimson px-space-md py-1.5 rounded-full gap-2"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-editorial-crimson opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-editorial-crimson"></span></span><span class="font-label-ticker text-label-ticker tracking-wide">ലൈവ് അപ്‌ഡേറ്റുകൾ സജീവം</span></div><div class="flex items-center gap-space-md flex-1 max-w-md justify-end"><div class="relative w-full max-w-xs hidden sm:block"><input class="w-full bg-parchment-base rounded-full py-1.5 pl-9 pr-4 font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary" placeholder="വാർത്തകൾ തിരയുക..." type="search"/><span class="material-symbols-outlined absolute left-2.5 top-2 text-secondary text-base">search</span></div><div class="flex items-center gap-space-sm"><button class="p-1.5 text-secondary hover:text-primary transition-colors" title="അറിയിപ്പുകൾ"><span class="material-symbols-outlined text-xl">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-secondary-fixed-dim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxYYHCHhgyTEaleB6KsujrLK-JvitACp_ZFM9MzEdJHRi_d0C8VmnMzOMMK-u17yasy2NbId1bupaXx_4iKs7XB4NIsCyIMXn7JOo-i4lhEaGeuiJqzKaFNUK_uCGRG1iVGWYcRUi-lMTeHPm6pPJC6HutiF0Xl7HEQ7HuFeWxUUfN_nsHYk1DHLIWHirfqJMPcqiJ40oqxD3WwteEtcQZ7l_jZeoa1V71xJOQcf9qH8cfFOMF27T8"/></div></div></div><div class="bg-surface-pure"><div class="max-w-[1360px] mx-auto px-margin-desktop overflow-x-auto"><nav class="flex items-center gap-1 py-1 min-w-max text-body-sm font-body-sm" data-active-classes="text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high"><a aria-current="page" class="px-3 py-1.5 rounded-sm transition-colors text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-path="home" href="index.html">പ്രധാന വാർത്തകൾ</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="kerala" href="kerala.html">കേരളം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="national" href="#">ദേശം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="world" href="#">ലോകം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="politics" href="#">രാഷ്ട്രീയം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="business" href="#">ബിസിനസ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="cinema-arts" href="#">സിനിമ &amp; കല</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="sports" href="#">സ്പോർട്സ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="editorial-opinion" href="#">അഭിപ്രായം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="diaspora-gulf" href="pravasi.html">പ്രവാസം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="tech-lifestyle" href="#">ടെക് &amp; ലൈഫ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-1 font-bold" data-path="live-tv" href="#"><span class="inline-block w-2 h-2 rounded-full bg-live-alert animate-pulse"></span>ലൈവ് ടിവി</a></nav></div></div><div class="bg-parchment-base"><div class="max-w-[1360px] mx-auto px-margin-desktop h-10 flex items-center overflow-hidden"><div class="flex items-center bg-primary text-on-primary px-3 py-1 font-label-ticker text-label-ticker uppercase shrink-0 gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-surface-pure animate-ping"></span><span>ബ്രേക്കിംഗ്</span></div><div class="overflow-hidden whitespace-nowrap px-4 text-body-sm font-body-sm text-on-surface flex-1"><span class="inline-block text-on-surface hover:text-primary transition-colors cursor-pointer">സംസ്ഥാനത്ത് വേനൽമഴ ശക്തമാകാൻ സാധ്യത: തെക്കൻ ജില്ലകളിൽ യെല്ലോ അലർട്ട് പ്രഖ്യാപിച്ചു • തിരുവനന്തപുരം മെട്രോ പദ്ധതിയുടെ പുതുക്കിയ ഡിപിആർ കേന്ദ്രാനുമതിക്കായി സമർപ്പിച്ചു</span></div></div></div></header><main class="w-full pt-48 bg-parchment-base"><div class="flex flex-col w-full">
+<div class="max-w-[1360px] mx-auto px-margin md:px-margin-desktop w-full pb-space-xxl">
+<!-- Editorial Breadcrumb & Category Bar -->
+<div class="flex flex-wrap items-center justify-between gap-3 pt-space-md pb-space-sm border-b border-slate-border text-caption font-caption text-secondary">
+<div class="flex items-center gap-2">
+<a class="text-editorial-crimson font-bold hover:underline" href="#">കേരളം</a>
+<span class="text-slate-border">/</span>
+<span class="text-on-surface-variant font-medium">വികസന പദ്ധതികൾ</span>
+<span class="hidden sm:inline-block w-1 h-1 rounded-full bg-secondary"></span>
+<span class="hidden sm:inline text-secondary font-body-sm">പ്രത്യേക റിപ്പോർട്ട്</span>
+</div>
+<div class="flex items-center gap-3 text-caption font-caption">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">schedule</span>
+          പ്രസിദ്ധീകരിച്ചത്: 2025 മാർച്ച് 29, 09:30 AM IST
+        </span>
+<span class="hidden md:inline text-slate-border">|</span>
+<span class="hidden md:flex items-center gap-1 text-editorial-crimson font-medium">
+<span class="material-symbols-outlined text-[14px]">update</span>
+          അവസാനം പുതുക്കിയത്: 11:15 AM IST
+        </span>
+</div>
+</div>
+<!-- Article Header & Meta Area -->
+<header class="pt-space-lg pb-space-md">
+<h1 class="font-headline-xl text-headline-xl text-ink-midnight tracking-tight mb-space-sm leading-[1.25] selection:bg-error-container">
+        വയനാട് ഇരട്ട തുരങ്കപാത നിർമാണത്തിന് കേന്ദ്ര പരിസ്ഥിതി അനുമതി; മലയോര ഹൈവേ വികസനത്തിൽ നിർണായക വഴിത്തിരിവ്
+      </h1>
+<p class="font-lead text-lead text-on-surface-variant leading-relaxed max-w-4xl mb-space-lg font-light">
+        കോഴിക്കോട് ആനക്കാംപൊയിൽ-കള്ളാടി-മേപ്പാടി തുരങ്കപാത യാഥാർഥ്യമാകുമ്പോൾ താമരശ്ശേരി ചുരത്തിലെ ഗതാഗതക്കുരുക്കിന് ശാശ്വത പരിഹാരം; 2,134 കോടി രൂപയുടെ നിർമാണ പദ്ധതിക്ക് സംസ്ഥാന മന്ത്രിസഭയുടെ പ്രത്യേക അനുമതി.
+      </p>
+<!-- Byline & Toolbar Strip -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md py-space-sm border-y border-slate-border bg-surface-pure/60 px-space-sm rounded-sm">
+<!-- Author Byline -->
+<div class="flex items-center gap-space-sm">
+<img alt="കെ. ആർ. നാരായണൻ" class="w-12 h-12 rounded-full object-cover ring-2 ring-slate-border shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxYYHCHhgyTEaleB6KsujrLK-JvitACp_ZFM9MzEdJHRi_d0C8VmnMzOMMK-u17yasy2NbId1bupaXx_4iKs7XB4NIsCyIMXn7JOo-i4lhEaGeuiJqzKaFNUK_uCGRG1iVGWYcRUi-lMTeHPm6pPJC6HutiF0Xl7HEQ7HuFeWxUUfN_nsHYk1DHLIWHirfqJMPcqiJ40oqxD3WwteEtcQZ7l_jZeoa1V71xJOQcf9qH8cfFOMF27T8"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-ink-midnight leading-none font-bold">കെ. ആർ. നാരായണൻ</span>
+<span class="material-symbols-outlined text-primary text-[17px]" title="വെരിഫൈഡ് ലേഖകൻ">verified</span>
+</div>
+<div class="flex items-center gap-2 text-caption font-caption text-secondary mt-0.5">
+<span>സീനിയർ ചീഫ് റിപ്പോർട്ടർ</span>
+<span>•</span>
+<span class="flex items-center gap-0.5"><span class="material-symbols-outlined text-[13px]">location_on</span> തിരുവനന്തപുരം</span>
+</div>
+</div>
+</div>
+<!-- Action / Utility Controls -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Text-to-Speech Player Box -->
+<div class="flex items-center gap-2 bg-secondary-container/40 text-on-secondary-container px-space-sm py-1.5 rounded-full border border-secondary-fixed" id="audioPlayerWidget">
+<button class="w-7 h-7 flex items-center justify-center rounded-full bg-primary text-on-primary hover:bg-editorial-crimson transition-colors" id="playPauseBtn" title="ശബ്ദരൂപം പ്ലേ ചെയ്യുക">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+<div class="flex flex-col pr-1">
+<span class="font-label-badge text-[11px] font-bold text-ink-midnight uppercase tracking-wider">വാർത്ത കേൾക്കാം</span>
+<span class="text-[11px] font-caption text-secondary">04:15 മിനിറ്റ്</span>
+</div>
+<button class="text-[11px] font-bold px-1.5 py-0.5 rounded bg-surface-pure text-ink-midnight hover:bg-slate-border-subtle" id="speedToggleBtn" title="വേഗത മാറ്റുക">1.0x</button>
+</div>
+<div class="h-6 w-[1px] bg-slate-border hidden sm:block"></div>
+<!-- Font Size Adjuster -->
+<div class="flex items-center bg-surface-pure border border-slate-border rounded px-1 py-0.5 text-caption font-caption">
+<span class="text-secondary px-1 text-[11px]">ഫോണ്ട്:</span>
+<button class="px-1.5 py-0.5 hover:bg-surface-container-high rounded text-ink-midnight" id="fontDec" title="അക്ഷരവലിപ്പം കുറയ്ക്കുക">A-</button>
+<button class="px-1.5 py-0.5 font-bold hover:bg-surface-container-high rounded text-primary" id="fontReset" title="യഥാർത്ഥ വലിപ്പം">A</button>
+<button class="px-1.5 py-0.5 hover:bg-surface-container-high rounded text-ink-midnight" id="fontInc" title="അക്ഷരവലിപ്പം കൂട്ടുക">A+</button>
+</div>
+<!-- Social Share & Bookmark -->
+<div class="flex items-center gap-1">
+<button class="p-2 text-secondary hover:text-editorial-crimson hover:bg-surface-pure rounded transition-colors" id="bookmarkBtn" title="സേവ് ചെയ്യുക">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+<a class="p-2 text-[#25D366] hover:bg-surface-pure rounded transition-colors" href="https://api.whatsapp.com/send?text=Wayanad+Tunnel+Road+Project" rel="noopener noreferrer" target="_blank" title="WhatsApp-ൽ ഷെയർ ചെയ്യുക">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</a>
+<button class="p-2 text-secondary hover:text-ink-midnight hover:bg-surface-pure rounded transition-colors" onclick="navigator.clipboard?.writeText(window.location.href); alert('ലിങ്ക് കോപ്പി ചെയ്തു!');" title="ലിങ്ക് കോപ്പി ചെയ്യുക">
+<span class="material-symbols-outlined text-[20px]">link</span>
+</button>
+<button class="p-2 text-secondary hover:text-ink-midnight hover:bg-surface-pure rounded transition-colors hidden md:block" onclick="window.print()" title="പ്രിന്റ് ചെയ്യുക">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- 12-Column Editorial Grid: 8 Columns Story Canvas / 4 Columns Sticky Rail -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop mt-space-md items-start">
+<!-- Primary Reading Canvas (Col 1 to 8) -->
+<article class="lg:col-span-8 flex flex-col space-y-space-lg" id="articleReadingCanvas">
+<!-- Hero Photograph & Caption -->
+<figure class="w-full bg-surface-pure border border-slate-border rounded-sm overflow-hidden shadow-sm">
+<img class="w-full aspect-[16/9] object-cover" data-alt="An expansive panoramic high resolution architectural visualization of the proposed twin-tube Wayanad mountain road tunnel portal nestled in lush tropical Western Ghats rainmist forest canopy, showing modern asphalt expressway approach roads, concrete retaining viaducts, warm morning cinematic sun filtering through mist, detailed photorealistic broadsheet editorial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6L_hrs-tHqDu3OwVnkU7FAGb7uiBK14T-i1O0IqShx8_WLEZhEYcTL9SJh3y3ix2pZ-pi5wD-YYlDckSO2u9nI5pE9PAkRHu5z4i2EkD61H-8BKTbp2-u9xirG9lT0iUUlLxmTNO0k6G1xNNlcrmV0r8EWBwcK0U9ofrkp9cHEwnylKGfvzzBDMn6Mua9YQaOVjstrLvyPG4U85z8iHa6qzKXx6tYkG3FQVrnSWbdvO40e-l2NSl7"/>
+<figcaption class="p-space-sm bg-surface-pure border-t border-slate-border text-caption font-caption text-secondary flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<span class="italic text-on-surface-variant">ആനക്കാംപൊയിൽ-കള്ളാടി-മേപ്പാടി നിർദിഷ്ട ഇരട്ട തുരങ്കപാതയുടെ ഡിജിറ്റൽ രൂപരേഖ.</span>
+<span class="text-[11px] font-bold text-secondary uppercase tracking-wider">കടപ്പാട്: KRDCL / മന്ത്രാലയം</span>
+</figcaption>
+</figure>
+<!-- Key Takeaways Box (പ്രധാന പോയിന്റുകൾ) -->
+<div class="bg-[#FBF8F1] border-l-4 border-opinion-ochre p-space-md rounded-r-sm shadow-sm">
+<div class="flex items-center gap-2 mb-space-sm text-opinion-ochre font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined">fact_check</span>
+<span>പ്രധാന പോയിന്റുകൾ ഒറ്റനോട്ടത്തിൽ</span>
+</div>
+<ul class="space-y-2.5 font-body-md text-body-md text-on-surface">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-opinion-ochre text-[18px] mt-0.5 shrink-0">check_circle</span>
+<span>കേന്ദ്ര പരിസ്ഥിതി-വന-കാലാവസ്ഥാ വ്യതിയാന മന്ത്രാലയത്തിന്റെ വിദഗ്ദ്ധ സമിതിയുടെ (EAC) അനുമതി ലഭ്യമായി.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-opinion-ochre text-[18px] mt-0.5 shrink-0">check_circle</span>
+<span>ആകെ 8.735 കിലോമീറ്റർ നീളം വരുന്നതാണ് പാത. തുരങ്കം മാത്രം 6.8 കിലോമീറ്ററോളം ഭൂമിക്കടിയിലൂടെ നീളും.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-opinion-ochre text-[18px] mt-0.5 shrink-0">check_circle</span>
+<span>പദ്ധതി പൂർത്തിയാകുന്നതോടെ താമരശ്ശേരി ചുരം ഒഴിവാക്കി കോഴിക്കോട് നിന്ന് മേപ്പാടിയിലേക്ക് 45 മിനിറ്റിൽ എത്താം.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-opinion-ochre text-[18px] mt-0.5 shrink-0">check_circle</span>
+<span>കൊങ്കൺ റെയിൽവേ കോർപ്പറേഷനാണ് (KRCL) നിർമാണ മേൽനോട്ട ചുമതല. 4 വർഷത്തിനകം നിർമാണം പൂർത്തിയാക്കും.</span>
+</li>
+</ul>
+</div>
+<!-- Typography Rich Article Body Content -->
+<div class="space-y-space-md font-body-lg text-body-lg text-on-surface leading-loose" id="storyContent">
+<p class="first-letter:font-headline-xl first-letter:text-[56px] first-letter:float-left first-letter:mr-3 first-letter:text-primary first-letter:font-bold first-letter:leading-none">
+            കോഴിക്കോട്: മലബാറിന്റെ യാത്രാദുരിതങ്ങൾക്ക് വിരാമമിടാൻ ലക്ഷ്യമിട്ടുള്ള ചരിത്രപരമായ വയനാട് ഇരട്ട തുരങ്കപാത നിർമാണത്തിന് കേന്ദ്ര പരിസ്ഥിതി മന്ത്രാലയത്തിന്റെ നിർണായക അനുമതി ലഭിച്ചു. ഡൽഹിയിൽ ചേർന്ന കേന്ദ്ര പരിസ്ഥിതി-വന മന്ത്രാലയ വിദഗ്ദ്ധ സമിതി യോഗത്തിലാണ് ദീർഘകാലമായി കാത്തിരുന്ന പദ്ധതിക്ക് പച്ചക്കൊടി കാട്ടിയത്. ഇതോടെ മൂന്ന് പതിറ്റാണ്ടിലേറെയായി മലയോര ജനത ഉന്നയിക്കുന്ന ആവശ്യത്തിന് ഭരണാനുമതി പൂർണമായി.
+          </p>
+<h2 class="font-headline-lg text-headline-lg text-ink-midnight pt-space-sm font-bold border-b border-slate-border pb-1">
+            പദ്ധതിയുടെ പ്രാധാന്യവും ഭൂമിശാസ്ത്രവും
+          </h2>
+<p>
+            കോഴിക്കോട് ജില്ലയിലെ ആനക്കാംപൊയിലിനെ വയനാട് ജില്ലയിലെ മേപ്പാടിയുമായി ബന്ധിപ്പിക്കുന്നതാണ് ഈ ഇരട്ട തുരങ്കപാത. പ്രകൃതിരമണീയവും അതോടൊപ്പം അതീവ പരിസ്ഥിതി ലോലവുമായ പശ്ചിമഘട്ട മലനിരകളുടെ അടിയിലൂടെ തുരങ്കം കടന്നുപോകുന്നത് പരിസ്ഥിതി നാശം പരമാവധി കുറച്ചുകൊണ്ടാണ്. ഉപരിതല വനഭൂമിയെ വലിയ തോതിൽ വെട്ടിനശിപ്പിക്കാതെ, ആധുനിക ന്യൂ ഓസ്ട്രിയൻ ടണലിംഗ് മെത്തേഡ് (NATM) ഉപയോഗിച്ചായിരിക്കും ഇരട്ട ടണലുകൾ നിർമിക്കുക.
+          </p>
+<p>
+            മൺസൂൺ കാലത്ത് താമരശ്ശേരി ചുരത്തിലുണ്ടാകുന്ന ഉരുൾപൊട്ടലുകളും കൂറ്റൻ പാറകൾ ഇടിഞ്ഞുവീഴുന്നതും കാരണം മണിക്കൂറുകളോളം വയനാട് ജില്ല പൂർണമായും ഒറ്റപ്പെടുന്ന അവസ്ഥയുണ്ടാകാറുണ്ട്. അടിയന്തര മെഡിക്കൽ ചികിത്സയ്ക്കായി കോഴിക്കോട് മെഡിക്കൽ കോളേജിലേക്ക് രോഗികളുമായി പോകുന്ന ആംബുലൻസുകൾ വരെ ചുരത്തിൽ കുടുങ്ങി ആളപായം സംഭവിക്കുന്നത് പതിവാണ്. ഈ ദുരവസ്ഥയ്ക്ക് ഇരട്ട തുരങ്കപാത പൂർണ പരിഹാരമാകുമെന്ന് വിലയിരുത്തപ്പെടുന്നു.
+          </p>
+<!-- Pull Quote with Classic Broadsheet Flourish -->
+<div class="my-space-lg p-space-lg bg-surface-pure border-y-2 border-editorial-crimson shadow-sm relative">
+<span class="material-symbols-outlined text-outline-variant text-[56px] absolute -top-5 left-4 opacity-50 select-none">format_quote</span>
+<blockquote class="font-headline-md text-headline-md text-ink-midnight italic relative z-10 leading-snug">
+              "താമരശ്ശേരി ചുരം നേരിടുന്ന പതിറ്റാണ്ടുകളുടെ ഗതാഗത സ്തംഭനത്തിന് ശാശ്വതമായ വിരാമമിടുന്നതാണ് ഈ പദ്ധതി. പരിസ്ഥിതി സന്തുലിതാവസ്ഥയ്ക്ക് തരിമ്പും കോട്ടം തട്ടാതെ വികസന സ്വപ്നം യാഥാർത്ഥ്യമാക്കാൻ സർക്കാർ പ്രതിജ്ഞാബദ്ധമാണ്."
+            </blockquote>
+<div class="mt-space-sm text-caption font-caption text-primary font-bold tracking-wide uppercase flex items-center gap-1.5">
+<span>— പി. എ. മുഹമ്മദ് റിയാസ്</span>
+<span class="text-secondary font-normal">(പൊതുമരാമത്ത് വകുപ്പ് മന്ത്രി)</span>
+</div>
+</div>
+<!-- Secondary In-depth Section -->
+<h2 class="font-headline-lg text-headline-lg text-ink-midnight pt-space-sm font-bold border-b border-slate-border pb-1">
+            പരിസ്ഥിതി അനുമതിയിലെ കർശന നിബന്ധനകൾ
+          </h2>
+<p>
+            പാരിസ്ഥിതിക അനുമതി നൽകുമ്പോൾ അതീവ ജാഗ്രത പാലിക്കണമെന്ന് കേന്ദ്ര വിദഗ്ദ്ധ സമിതി ഉത്തരവിൽ വ്യക്തമാക്കുന്നു. നിർമാണ വേളയിൽ ഉണ്ടാകുന്ന മണ്ണും പാറയും തള്ളാൻ കൃത്യമായ ഡംപിംഗ് സോണുകൾ കണ്ടെത്തണം. മലനിരകളിലെ ഭൂഗർഭ ജലനിരപ്പിന് ഇടിവ് സംഭവിക്കാതിരിക്കാൻ ഹൈഡ്രോളജിക്കൽ പഠനം തുടർച്ചയായി നടത്തണം.
+          </p>
+<!-- Visual Infographic Card: Route Comparison -->
+<div class="my-space-lg bg-surface-pure border border-slate-border rounded-lg p-space-md shadow-sm">
+<div class="flex items-center justify-between border-b border-slate-border pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-editorial-crimson">route</span>
+<span class="font-headline-sm text-headline-sm text-ink-midnight font-bold">യാത്രാ ദൂരവും സമയവും: താരതമ്യ പഠനം</span>
+</div>
+<span class="text-caption font-caption bg-surface-container-high px-2 py-0.5 rounded text-secondary font-medium">നാഷണൽ ഹൈവേ ഡാറ്റ</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Route 1: Current -->
+<div class="bg-surface-container-low p-space-md rounded-md flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-bold text-ink-midnight font-headline-sm text-[16px]">നിലവിലെ താമരശ്ശേരി ചുരം പാത</span>
+<span class="text-caption font-caption text-error font-bold">കുരുക്ക് സാധ്യത കൂടുതൽ</span>
+</div>
+<div class="space-y-1.5 text-body-sm font-body-sm text-secondary">
+<div class="flex justify-between">
+<span>ആകെ ദൂരം:</span>
+<strong class="text-ink-midnight">85 കിലോമീറ്റർ</strong>
+</div>
+<div class="flex justify-between">
+<span>ശരാശരി സമയം:</span>
+<strong class="text-ink-midnight">2.5 മുതൽ 3.5 മണിക്കൂർ വരെ</strong>
+</div>
+<div class="flex justify-between">
+<span>റോഡിന്റെ അവസ്ഥ:</span>
+<strong class="text-ink-midnight">9 ഹെയർപിൻ വളവുകൾ, ഇടുങ്ങിയ പാത</strong>
+</div>
+</div>
+</div>
+<!-- Visual Bar (Slow) -->
+<div class="mt-4 pt-2 border-t border-slate-border">
+<div class="flex justify-between text-caption font-caption mb-1">
+<span>യാത്രാ സമയ സൂചിക</span>
+<span class="font-bold text-error">100% (ദീർഘനേരം)</span>
+</div>
+<div class="w-full bg-slate-border rounded-full h-2 overflow-hidden">
+<div class="bg-error h-2 rounded-full w-[95%]"></div>
+</div>
+</div>
+</div>
+<!-- Route 2: Proposed Tunnel -->
+<div class="bg-tertiary-fixed/30 p-space-md rounded-md flex flex-col justify-between border border-tertiary-container/30">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-bold text-ink-midnight font-headline-sm text-[16px]">നിർദിഷ്ട ഇരട്ട തുരങ്കപാത</span>
+<span class="text-caption font-caption text-tertiary font-bold bg-surface-pure px-2 py-0.5 rounded-full">ഗ്രീൻ ഹൈവേ</span>
+</div>
+<div class="space-y-1.5 text-body-sm font-body-sm text-secondary">
+<div class="flex justify-between">
+<span>ആകെ ദൂരം:</span>
+<strong class="text-ink-midnight">67 കിലോമീറ്റർ</strong>
+</div>
+<div class="flex justify-between">
+<span>ശരാശരി സമയം:</span>
+<strong class="text-primary font-bold">40 - 45 മിനിറ്റ് മാത്രം</strong>
+</div>
+<div class="flex justify-between">
+<span>റോഡിന്റെ പ്രത്യേകത:</span>
+<strong class="text-ink-midnight">നാലുവരി ഇരട്ട തുരങ്കം, ആധുനിക വെന്റിലേഷൻ</strong>
+</div>
+</div>
+</div>
+<!-- Visual Bar (Fast) -->
+<div class="mt-4 pt-2 border-t border-slate-border">
+<div class="flex justify-between text-caption font-caption mb-1">
+<span>യാത്രാ സമയ ലാഭം</span>
+<span class="font-bold text-primary">70% ലാഭം</span>
+</div>
+<div class="w-full bg-slate-border rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full w-[30%]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- SVG Sparkline Elevation Visual -->
+<div class="mt-space-md p-space-sm bg-surface-pure rounded border border-slate-border">
+<div class="flex items-center justify-between text-caption font-caption text-secondary mb-1">
+<span>ഉയര വ്യത്യാസ രൂപരേഖ (Elevation Profile: 650 മീറ്റർ തുരങ്കം)</span>
+<span>സമുദ്രനിരപ്പ്: 1100 മീറ്റർ വരെ</span>
+</div>
+<svg class="w-full h-12 stroke-current text-primary fill-none" preserveaspectratio="none" viewbox="0 0 500 60">
+<path d="M 0,50 Q 120,45 200,20 T 360,18 Q 420,35 500,48" stroke-linecap="round" stroke-width="2"></path>
+<path class="fill-primary/10 stroke-none" d="M 0,50 L 0,60 L 500,60 L 500,48 Q 420,35 360,18 T 200,20 Q 120,45 0,50 Z"></path>
+<!-- Tunnel Dashed Line through mountain -->
+<line stroke="#C8102E" stroke-dasharray="4,4" stroke-width="3" x1="160" x2="380" y1="46" y2="46"></line>
+</svg>
+<div class="flex justify-between text-[11px] font-caption text-secondary mt-1">
+<span>ആനക്കാംപൊയിൽ (പ്രവേശന കവാടം)</span>
+<span class="text-primary font-bold">തുരങ്കം (6.8 കി.മീറ്റർ)</span>
+<span>മേപ്പാടി (നിർഗമന കവാടം)</span>
+</div>
+</div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-ink-midnight pt-space-sm font-bold border-b border-slate-border pb-1">
+            യാത്രാസമയത്തിലെ കുറവും സാമ്പത്തിക സാധ്യതകളും
+          </h2>
+<p>
+            വയനാട്, കോഴിക്കോട് ജില്ലകൾ തമ്മിലുള്ള സാമ്പത്തിക വിനിമയത്തിലും വിനോദസഞ്ചാര മേഖലയിലും വൻ കുതിച്ചുചാട്ടത്തിന് ഈ പദ്ധതി വഴിയൊരുക്കും. കൃഷിക്കാരുടെ ഉത്പന്നങ്ങൾ, പ്രത്യേകിച്ച് സുഗന്ധവ്യഞ്ജനങ്ങളും പച്ചക്കറികളും പെട്ടെന്ന് കമ്പോളങ്ങളിലെത്തിക്കാൻ കഴിയുന്നത് കർഷകർക്ക് പുതിയ പ്രതീക്ഷ പകരുന്നുണ്ട്. കൂടാതെ മൈസൂരു, ബെംഗളൂരു നഗരങ്ങളിലേക്കുള്ള യാത്രാസമയം ഒരു മണിക്കൂറിലധികം കുറയ്ക്കാനും ഇത് സഹായിക്കും.
+          </p>
+<p>
+            കിഫ്ബി (KIIFB) വഴിയാണ് പദ്ധതിക്ക് ആവശ്യമായ 2,134 കോടി രൂപ അനുവദിച്ചിട്ടുള്ളത്. തുരങ്ക നിർമാണത്തിനുള്ള അന്താരാഷ്ട്ര ടെൻഡർ നടപടികൾ അടുത്ത മാസം ആരംഭിക്കുമെന്നും 2029 ഓടെ പദ്ധതി പൂർണതോതിൽ കമ്മീഷൻ ചെയ്യുമെന്നും പൊതുമരാമത്ത് വകുപ്പ് വൃത്തങ്ങൾ വാർത്താവീഥിയോട് സ്ഥിരീകരിച്ചു.
+          </p>
+</div>
+<!-- Story Tags -->
+<div class="pt-space-md border-t border-slate-border">
+<div class="flex flex-wrap items-center gap-2">
+<span class="text-caption font-caption text-secondary font-bold mr-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">tag</span> ടാഗുകൾ:
+            </span>
+<a class="px-2.5 py-1 bg-surface-container-high hover:bg-slate-border text-on-surface text-caption font-caption rounded font-medium transition-colors" href="#">#WayanadTunnel</a>
+<a class="px-2.5 py-1 bg-surface-container-high hover:bg-slate-border text-on-surface text-caption font-caption rounded font-medium transition-colors" href="#">#KeralaPWD</a>
+<a class="px-2.5 py-1 bg-surface-container-high hover:bg-slate-border text-on-surface text-caption font-caption rounded font-medium transition-colors" href="#">#ThamarasseryChuram</a>
+<a class="px-2.5 py-1 bg-surface-container-high hover:bg-slate-border text-on-surface text-caption font-caption rounded font-medium transition-colors" href="#">#Infrastructure</a>
+<a class="px-2.5 py-1 bg-surface-container-high hover:bg-slate-border text-on-surface text-caption font-caption rounded font-medium transition-colors" href="#">#WesternGhats</a>
+</div>
+</div>
+<!-- Author Bio Card -->
+<div class="bg-surface-pure border border-slate-border rounded-lg p-space-md flex flex-col sm:flex-row items-center sm:items-start gap-space-md shadow-sm">
+<img alt="കെ. ആർ. നാരായണൻ" class="w-20 h-20 rounded-full object-cover shrink-0 ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxYYHCHhgyTEaleB6KsujrLK-JvitACp_ZFM9MzEdJHRi_d0C8VmnMzOMMK-u17yasy2NbId1bupaXx_4iKs7XB4NIsCyIMXn7JOo-i4lhEaGeuiJqzKaFNUK_uCGRG1iVGWYcRUi-lMTeHPm6pPJC6HutiF0Xl7HEQ7HuFeWxUUfN_nsHYk1DHLIWHirfqJMPcqiJ40oqxD3WwteEtcQZ7l_jZeoa1V71xJOQcf9qH8cfFOMF27T8"/>
+<div class="flex-1 text-center sm:text-left">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-1">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-ink-midnight font-bold">കെ. ആർ. നാരായണൻ</h4>
+<p class="text-caption font-caption text-secondary">സീനിയർ ചീഫ് റിപ്പോർട്ടർ, വാർത്താവീഥി സ്പെഷ്യൽ ഇൻവെസ്റ്റിഗേഷൻ ഡെസ്ക്</p>
+</div>
+<button class="bg-ink-midnight text-surface-pure hover:bg-primary px-3 py-1.5 rounded text-body-sm font-body-sm font-medium transition-colors self-center sm:self-start">
+                ഫോളോ ചെയ്യുക
+              </button>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed mt-2">
+              കേരളത്തിലെ അടിസ്ഥാന സൗകര്യ വികസനം, പരിസ്ഥിതി രാഷ്ട്രീയം, സംസ്ഥാന ബജറ്റ് വിഹിതം എന്നിവയിൽ കഴിഞ്ഞ 18 വർഷമായി നിഷ്പക്ഷ റിപ്പോർട്ടിംഗ് നടത്തുന്ന മുതിർന്ന മാധ്യമപ്രവർത്തകൻ.
+            </p>
+</div>
+</div>
+<!-- Reader Comments / Reactions Section -->
+<section class="bg-surface-pure border border-slate-border rounded-lg p-space-md md:p-space-lg shadow-sm" id="commentsSection">
+<div class="flex items-center justify-between border-b border-slate-border pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-editorial-crimson">forum</span>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight font-bold">വായനക്കാരുടെ അഭിപ്രായങ്ങൾ (48)</h3>
+</div>
+<span class="text-caption font-caption text-secondary">മര്യാദയുള്ള സംവാദങ്ങൾ സ്വാഗതം ചെയ്യുന്നു</span>
+</div>
+<!-- New Comment Input Box -->
+<div class="mb-space-lg bg-parchment-base p-space-md rounded-md border border-slate-border">
+<label class="block text-caption font-caption font-bold text-ink-midnight mb-1.5">നിങ്ങളുടെ അഭിപ്രായം രേഖപ്പെടുത്തൂ</label>
+<textarea class="w-full bg-surface-pure border border-slate-border rounded p-space-sm font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary" placeholder="ഈ വാർത്തയെക്കുറിച്ചുള്ള താങ്കളുടെ നിരീക്ഷണം വ്യക്തവും മാന്യവുമായി ഇവിടെ എഴുതുക..." rows="3"></textarea>
+<div class="flex items-center justify-between mt-2">
+<span class="text-[11px] font-caption text-secondary">നിങ്ങളുടെ പേരും ഇമെയിലും പ്രസിദ്ധീകരിക്കപ്പെടില്ല.</span>
+<button class="bg-editorial-crimson hover:bg-primary text-on-primary px-4 py-1.5 rounded font-body-sm text-body-sm font-bold transition-colors">
+                അഭിപ്രായം അയക്കുക
+              </button>
+</div>
+</div>
+<!-- Comments Feed -->
+<div class="space-y-space-md">
+<!-- Comment 1 -->
+<div class="border-b border-slate-border pb-space-md">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-[12px]">എം</span>
+<span class="font-headline-sm text-[15px] font-bold text-ink-midnight">മാത്യു വർഗീസ്, കൽപ്പറ്റ</span>
+</div>
+<span class="text-caption font-caption text-secondary">2 മണിക്കൂർ മുൻപ്</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                വയനാട്ടുകാരുടെ പതിറ്റാണ്ടുകളുടെ കാത്തിരിപ്പിനാണ് ഫലമുണ്ടാകുന്നത്. താമരശ്ശേരി ചുരത്തിലെ ഗതാഗതക്കുരുക്ക് പല ജീവനുകൾ അപഹരിച്ചിട്ടുണ്ട്. പരിസ്ഥിതിക്ക് ദോഷം വരാതെ സമയബന്ധിതമായി നിർമാണം പൂർത്തിയാക്കാൻ സർക്കാരിന് സാധിക്കട്ടെ.
+              </p>
+<div class="flex items-center gap-4 mt-2 text-caption font-caption text-secondary">
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-[15px]">thumb_up</span> 24</button>
+<button class="hover:underline">മറുപടി നൽകുക</button>
+</div>
+</div>
+<!-- Comment 2 -->
+<div class="border-b border-slate-border pb-space-md">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-[12px]">എസ്</span>
+<span class="font-headline-sm text-[15px] font-bold text-ink-midnight">ഡോ. ശശികുമാർ, കോഴിക്കോട്</span>
+</div>
+<span class="text-caption font-caption text-secondary">3 മണിക്കൂർ മുൻപ്</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                തുരങ്കനിർമാണം നല്ലതുതന്നെ, എന്നാൽ പശ്ചിമഘട്ട മലനിരകളുടെ അടിയിലൂടെ തുരങ്കം വരുമ്പോൾ സമീപ പ്രദേശങ്ങളിലെ കുടിവെള്ള സ്രോതസ്സുകൾ വറ്റിപ്പോകില്ലെന്ന് ജിയോളജിക്കൽ സർവേ പൂർണമായും ഉറപ്പുവരുത്തണം. വിദഗ്ദ്ധ മേൽനോട്ടം അത്യന്താപേക്ഷിതമാണ്.
+              </p>
+<div class="flex items-center gap-4 mt-2 text-caption font-caption text-secondary">
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-[15px]">thumb_up</span> 18</button>
+<button class="hover:underline">മറുപടി നൽകുക</button>
+</div>
+</div>
+</div>
+<div class="text-center pt-space-sm">
+<button class="text-editorial-crimson font-body-sm text-body-sm font-bold hover:underline inline-flex items-center gap-1">
+              കൂടുതൽ അഭിപ്രായങ്ങൾ കാണുക <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</div>
+</section>
+</article>
+<!-- Sticky Editorial Right Rail (Col 9 to 12) -->
+<aside class="lg:col-span-4 flex flex-col space-y-space-lg lg:sticky lg:top-44">
+<!-- Premium Subscription Box -->
+<div class="bg-gradient-to-br from-ink-midnight to-[#132A4A] text-surface-pure p-space-md rounded-lg shadow-md relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 w-28 h-28 bg-editorial-crimson/20 rounded-full blur-2xl"></div>
+<div class="flex items-center gap-2 mb-2 text-tertiary-fixed font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-opinion-ochre">workspace_premium</span>
+<span>വാർത്താവീഥി പ്രീമിയം</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary-fixed-dim leading-relaxed mb-space-md">
+            നിഷ്പക്ഷവും ആഴത്തിലുള്ളതുമായ പത്രപ്രവർത്തനത്തിന് വരിചേരൂ. പരസ്യരഹിത വായനാനുഭവവും സമ്പൂർണ്ണ ഇ-പേപ്പർ ആക്‌സസും സ്വന്തമാക്കൂ.
+          </p>
+<div class="flex items-baseline gap-2 mb-space-sm">
+<span class="font-headline-lg text-headline-lg font-bold text-surface-pure">₹99</span>
+<span class="text-caption font-caption text-secondary-fixed-dim">/ ആദ്യ മാസം</span>
+</div>
+<button class="w-full bg-editorial-crimson hover:bg-primary text-on-primary py-2.5 rounded font-body-sm text-body-sm font-bold transition-colors shadow-sm">
+            ഇപ്പോൾ വരിക്കാരാകൂ
+          </button>
+</div>
+<!-- Related Stories Timeline (ഈ വിഷയത്തിൽ കൂടുതൽ വാർത്തകൾ) -->
+<div class="bg-surface-pure border border-slate-border rounded-lg p-space-md shadow-sm">
+<div class="flex items-center gap-2 border-b border-slate-border pb-space-sm mb-space-sm">
+<span class="material-symbols-outlined text-editorial-crimson">timeline</span>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight font-bold">ഈ വിഷയത്തിൽ കൂടുതൽ വാർത്തകൾ</h3>
+</div>
+<div class="space-y-space-md">
+<article class="group cursor-pointer">
+<span class="text-[11px] font-caption text-secondary font-medium">2025 മാർച്ച് 27</span>
+<h4 class="font-headline-sm text-[16px] text-ink-midnight group-hover:text-primary transition-colors leading-snug font-semibold mt-0.5">
+                വയനാട് തുരങ്കപാത: കിഫ്ബി വഴി 2,134 കോടിയുടെ ആദ്യ ഗഡു അടുത്തയാഴ്ച കൈമാറും
+              </h4>
+</article>
+<article class="group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="text-[11px] font-caption text-secondary font-medium">2025 മാർച്ച് 21</span>
+<h4 class="font-headline-sm text-[16px] text-ink-midnight group-hover:text-primary transition-colors leading-snug font-semibold mt-0.5">
+                താമരശ്ശേരി ചുരത്തിൽ വീണ്ടും ഭാരവാഹനങ്ങൾ കുടുങ്ങി; 4 മണിക്കൂർ സ്തംഭനം
+              </h4>
+</article>
+<article class="group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="text-[11px] font-caption text-secondary font-medium">2025 ഫെബ്രുവരി 14</span>
+<h4 class="font-headline-sm text-[16px] text-ink-midnight group-hover:text-primary transition-colors leading-snug font-semibold mt-0.5">
+                ആനക്കാംപൊയിൽ-കള്ളാടി റൂട്ടിലെ ഭൂമിയേറ്റെടുക്കൽ 90 ശതമാനം പൂർത്തിയായി
+              </h4>
+</article>
+</div>
+</div>
+<!-- Most Read Top 5 (ഏറ്റവും കൂടുതൽ വായിക്കപ്പെട്ടവ) -->
+<div class="bg-surface-pure border border-slate-border rounded-lg p-space-md shadow-sm">
+<div class="flex items-center justify-between border-b border-slate-border pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-opinion-ochre">trending_up</span>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight font-bold">ഏറ്റവും കൂടുതൽ വായിക്കപ്പെട്ടവ</h3>
+</div>
+<span class="text-[11px] font-caption text-secondary uppercase tracking-wider">24 മണിക്കൂർ</span>
+</div>
+<div class="space-y-space-md">
+<!-- Item 1 -->
+<div class="flex items-start gap-space-sm group cursor-pointer">
+<span class="font-headline-xl text-[28px] text-editorial-crimson font-bold leading-none shrink-0 w-7">01</span>
+<div>
+<a class="font-headline-sm text-[15px] font-semibold text-ink-midnight group-hover:text-primary transition-colors leading-snug block" href="#">
+                  വേനൽമഴ ശക്തമാകുന്നു: സംസ്ഥാനത്തെ 6 ജില്ലകളിൽ യെല്ലോ അലർട്ട്
+                </a>
+<span class="text-[11px] font-caption text-secondary mt-1 block">കേരളം • 35k വായനകൾ</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex items-start gap-space-sm group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="font-headline-xl text-[28px] text-editorial-crimson font-bold leading-none shrink-0 w-7">02</span>
+<div>
+<a class="font-headline-sm text-[15px] font-semibold text-ink-midnight group-hover:text-primary transition-colors leading-snug block" href="#">
+                  തിരുവനന്തപുരം മെട്രോ: പുതിയ റൂട്ടുകളുടെ സർവേ അടുത്തയാഴ്ച പൂർത്തിയാകും
+                </a>
+<span class="text-[11px] font-caption text-secondary mt-1 block">വികസനം • 28k വായനകൾ</span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex items-start gap-space-sm group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="font-headline-xl text-[28px] text-editorial-crimson font-bold leading-none shrink-0 w-7">03</span>
+<div>
+<a class="font-headline-sm text-[15px] font-semibold text-ink-midnight group-hover:text-primary transition-colors leading-snug block" href="#">
+                  സ്വർണവിലയിൽ ചരിത്രത്തിലെ ഏറ്റവും ഉയർന്ന വർധനവ്; പവൻ 58,000 കടന്നു
+                </a>
+<span class="text-[11px] font-caption text-secondary mt-1 block">ബിസിനസ് • 24k വായനകൾ</span>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="flex items-start gap-space-sm group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="font-headline-xl text-[28px] text-editorial-crimson font-bold leading-none shrink-0 w-7">04</span>
+<div>
+<a class="font-headline-sm text-[15px] font-semibold text-ink-midnight group-hover:text-primary transition-colors leading-snug block" href="#">
+                  ഐപിഎൽ 2025: സഞ്ജു സാംസണിന്റെ ക്യാപ്റ്റൻ ഇന്നിങ്സ്; രാജസ്ഥാന് മിന്നും ജയം
+                </a>
+<span class="text-[11px] font-caption text-secondary mt-1 block">കായികം • 19k വായനകൾ</span>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="flex items-start gap-space-sm group cursor-pointer pt-space-sm border-t border-slate-border">
+<span class="font-headline-xl text-[28px] text-editorial-crimson font-bold leading-none shrink-0 w-7">05</span>
+<div>
+<a class="font-headline-sm text-[15px] font-semibold text-ink-midnight group-hover:text-primary transition-colors leading-snug block" href="#">
+                  പ്രവാസികൾക്കായി നോർക്ക റൂട്ട്സിന്റെ പുതിയ ആശ്വാസ് പെൻഷൻ പോർട്ടൽ പ്രവർത്തനം തുടങ്ങി
+                </a>
+<span class="text-[11px] font-caption text-secondary mt-1 block">പ്രവാസം • 16k വായനകൾ</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Newsletter Mini Card -->
+<div class="bg-[#F4F5F8] border border-slate-border rounded-lg p-space-md shadow-sm">
+<div class="flex items-center gap-2 mb-1.5 text-ink-midnight font-headline-sm text-[17px] font-bold">
+<span class="material-symbols-outlined text-primary text-[20px]">mail</span>
+<span>പ്രഭാത വാർത്താസംഗ്രഹം</span>
+</div>
+<p class="text-caption font-caption text-secondary leading-relaxed mb-space-sm">
+            കേരളത്തിലെയും ലോകത്തെയും പ്രധാന വാർത്തകൾ ദിവസവും രാവിലെ 7:00 മണിക്ക് നിങ്ങളുടെ ഇൻബോക്സിൽ നേരിട്ടെത്താൻ സബ്‌സ്‌ക്രൈബ് ചെയ്യൂ.
+          </p>
+<div class="space-y-2">
+<input class="w-full bg-surface-pure border border-slate-border rounded px-3 py-1.5 text-body-sm font-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary" placeholder="നിങ്ങളുടെ ഇമെയിൽ വിലാസം" type="email"/>
+<button class="w-full bg-ink-midnight hover:bg-primary text-surface-pure py-2 rounded text-body-sm font-body-sm font-bold transition-colors">
+              സൗജന്യമായി ചേരൂ
+            </button>
+</div>
+<span class="text-[11px] font-caption text-secondary-fixed-dim text-center block mt-2">സ്പാം സന്ദേശങ്ങൾ അയക്കില്ല. എപ്പോൾ വേണമെങ്കിലും ഒഴിവാക്കാം.</span>
+</div>
+</aside>
+</div>
+</div>
+<!-- Inline Micro-Interaction Script for Font Resize, Playback Speed & Bookmark toggle -->
+<script>
+    (function() {
+      // Font resize interaction
+      const content = document.getElementById('storyContent');
+      const fontInc = document.getElementById('fontInc');
+      const fontDec = document.getElementById('fontDec');
+      const fontReset = document.getElementById('fontReset');
+      
+      let currentSize = 17;
+      if (fontInc && fontDec && fontReset && content) {
+        fontInc.addEventListener('click', function() {
+          if (currentSize < 22) {
+            currentSize += 1.5;
+            content.style.fontSize = currentSize + 'px';
+            content.style.lineHeight = (currentSize * 1.8) + 'px';
+          }
+        });
+        fontDec.addEventListener('click', function() {
+          if (currentSize > 14) {
+            currentSize -= 1.5;
+            content.style.fontSize = currentSize + 'px';
+            content.style.lineHeight = (currentSize * 1.8) + 'px';
+          }
+        });
+        fontReset.addEventListener('click', function() {
+          currentSize = 17;
+          content.style.fontSize = '17px';
+          content.style.lineHeight = '28px';
+        });
+      }
+
+      // Audio simulation toggle
+      const playBtn = document.getElementById('playPauseBtn');
+      const speedBtn = document.getElementById('speedToggleBtn');
+      let isPlaying = false;
+      let speeds = ['1.0x', '1.25x', '1.5x'];
+      let speedIdx = 0;
+
+      if (playBtn) {
+        playBtn.addEventListener('click', function() {
+          isPlaying = !isPlaying;
+          const icon = playBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = isPlaying ? 'pause' : 'volume_up';
+          }
+        });
+      }
+
+      if (speedBtn) {
+        speedBtn.addEventListener('click', function() {
+          speedIdx = (speedIdx + 1) % speeds.length;
+          speedBtn.textContent = speeds[speedIdx];
+        });
+      }
+
+      // Bookmark active state toggle
+      const bookmarkBtn = document.getElementById('bookmarkBtn');
+      if (bookmarkBtn) {
+        let isBookmarked = false;
+        bookmarkBtn.addEventListener('click', function() {
+          isBookmarked = !isBookmarked;
+          const icon = bookmarkBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = isBookmarked ? 'bookmark' : 'bookmark_border';
+            bookmarkBtn.classList.toggle('text-editorial-crimson', isBookmarked);
+          }
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-ink-midnight text-surface-pure mt-space-xxl"><div class="max-w-[1360px] mx-auto px-margin-desktop pt-space-xxl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter-desktop mb-space-xl"><div class="lg:col-span-2 pr-0 lg:pr-space-lg"><div class="flex items-center gap-space-md mb-space-md"><img alt="Vartha Veethi Logo" class="h-8 w-auto object-contain brightness-200" src="https://lh3.googleusercontent.com/aida/AEtjO1X5RAdrH3DaCoyIIwCzukOlwxTmzaCexpvGWiLPA7SSKA2yaVTSsYBYWCnCoqOiO4m-fWtqkYTdwJizi_R2fPGeBSqIDGmSDBQTKjnsnSrpkXhwdWGmEmvvLnDInQDuy54m0kBsG5PvAlJVlrqc087Om_c33SZMX9DMY2Qfp40aEfUmPSAw0nyzx7gyQnHYzbuSlpMnCnqMBKaoZS3rfA05pFNr2CmEfdZorMgJBTrTIZYtcx0Al_mrtmk"/><div class="flex flex-col"><span class="font-headline-md text-headline-md text-surface-pure">വാർത്താവീഥി</span><span class="font-caption text-caption text-secondary-fixed-dim">വിശ്വാസ്യതയുടെ നേർവഴി</span></div></div><p class="font-body-sm text-body-sm text-secondary-fixed-dim leading-relaxed mb-space-md">കേരളത്തിൻ്റെ പാരമ്പര്യത്തിലും നിഷ്പക്ഷ മാധ്യമപ്രവർത്തനത്തിലും ഉറച്ചുനിൽക്കുന്ന വാർത്താവീഥി. ഓരോ നിമിഷവും ലോകത്തെ വാർത്തകൾ കൃത്യതയോടെയും അന്തസ്സോടെയും നിങ്ങളുടെ വിരൽത്തുമ്പിൽ എത്തിക്കുന്നു.</p><div class="bg-secondary/20 p-space-md rounded-lg"><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-1">വാർത്താക്കുറിപ്പ് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക</h4><p class="font-caption text-caption text-secondary-fixed-dim mb-space-sm">പ്രധാന വാർത്തകൾ ദിവസവും രാവിലെ നിങ്ങളുടെ ഇൻബോക്സിൽ.</p><div class="flex gap-2"><input class="w-full bg-surface-pure text-on-surface px-3 py-2 font-body-sm text-body-sm rounded focus:outline-none" placeholder="ഇമെയിൽ വിലാസം നൽകുക" type="email"/><button class="bg-editorial-crimson text-on-primary px-4 py-2 font-body-sm text-body-sm font-bold rounded hover:bg-primary transition-colors whitespace-nowrap">ചേരുക</button></div></div></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">വിഭാഗങ്ങൾ</h4><ul class="space-y-2 font-body-sm text-body-sm text-secondary-fixed-dim"><li><a class="hover:text-surface-pure transition-colors" data-path="kerala" href="kerala.html">കേരളം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="national" href="#">ദേശീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="world" href="#">അന്തർദേശീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="politics" href="#">രാഷ്ട്രീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="business" href="#">ധനകാര്യം &amp; വിപണി</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="sports" href="#">കായികം</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">പ്രത്യേക പംക്തികൾ</h4><ul class="space-y-2 font-body-sm text-body-sm text-secondary-fixed-dim"><li><a class="hover:text-surface-pure transition-colors" data-path="editorial-opinion" href="#">മുഖപ്രസംഗം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="diaspora-gulf" href="pravasi.html">പ്രവാസി ജാലകം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="cinema-arts" href="#">ചലച്ചിത്ര നിരൂപണം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="tech-lifestyle" href="#">സാങ്കേതികം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="epaper" href="epaper.html">ഡിജിറ്റൽ ആർക്കൈവ്സ്</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="fact-check" href="#">ഫാക്ട് ചെക്ക് ഡെസ്ക്</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">മൊബൈൽ ആപ്പ്</h4><p class="font-caption text-caption text-secondary-fixed-dim mb-space-sm">എവിടെയും വാർത്തകൾ തത്സമയം അറിയാൻ വാർത്താവീഥി ആപ്പ് ഡൗൺലോഡ് ചെയ്യൂ.</p><div class="flex flex-col gap-2 mb-space-md"><a class="flex items-center gap-2 bg-secondary/30 hover:bg-secondary/50 px-3 py-2 rounded text-surface-pure font-body-sm text-body-sm transition-colors" href="#"><span class="material-symbols-outlined text-xl">android</span><span>Google Play Store</span></a><a class="flex items-center gap-2 bg-secondary/30 hover:bg-secondary/50 px-3 py-2 rounded text-surface-pure font-body-sm text-body-sm transition-colors" href="#"><span class="material-symbols-outlined text-xl">phone_iphone</span><span>Apple App Store</span></a></div><div class="flex items-center gap-2 text-secondary-fixed-dim text-caption font-caption"><span class="material-symbols-outlined text-sm text-editorial-crimson">verified</span><span>പ്രസ് കൗൺസിൽ ഓഫ് ഇന്ത്യ മാർഗ്ഗനിർദ്ദേശങ്ങൾ പാലിക്കുന്നു</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-4 font-caption text-caption text-secondary-fixed-dim"><div class="flex flex-wrap gap-4 items-center"><a class="hover:text-surface-pure" data-path="about" href="#">ഞങ്ങളെക്കുറിച്ച്</a><span>•</span><a class="hover:text-surface-pure" data-path="editorial-ethics" href="#">എഡിറ്റോറിയൽ നയം</a><span>•</span><a class="hover:text-surface-pure" data-path="privacy-policy" href="#">സ്വകാര്യതാ നയം</a><span>•</span><a class="hover:text-surface-pure" data-path="contact" href="#">ബന്ധപ്പെടുക</a><span>•</span><a class="hover:text-surface-pure" data-path="terms" href="#">വ്യവസ്ഥകൾ</a></div><div>© 2025 വാർത്താവീഥി പബ്ലിഷിംഗ് കമ്പനി ലിമിറ്റഡ്. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.</div></div></div></footer>  <script src="assets/js/portal.js"></script>
+</body></html>

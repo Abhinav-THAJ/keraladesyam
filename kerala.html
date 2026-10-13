@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="ml"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>വാർത്താവീഥി - Vartha Veethi</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800&amp;family=Noto+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-high":"#dee8ff","inverse-surface":"#263143","outline-variant":"#e5bdbb","on-error":"#ffffff","slate-border":"#E2E8F0","surface":"#f9f9ff","surface-container":"#e7eeff","on-tertiary-fixed-variant":"#004b6f","secondary":"#515f78","secondary-fixed-dim":"#b9c7e4","on-secondary-fixed-variant":"#39475f","on-tertiary-container":"#c9e6ff","on-secondary":"#ffffff","surface-pure":"#FFFFFF","secondary-container":"#d2e0fe","error":"#ba1a1a","inverse-primary":"#ffb3b1","surface-bright":"#f9f9ff","tertiary-container":"#006b9a","tertiary-fixed":"#c9e6ff","opinion-ochre":"#B45309","on-secondary-container":"#55637d","on-background":"#111c2d","surface-container-lowest":"#ffffff","parchment-base":"#FAFAF9","on-tertiary":"#ffffff","background":"#f9f9ff","surface-container-low":"#f0f3ff","surface-dim":"#cfdaf2","secondary-fixed":"#d6e3ff","tertiary-fixed-dim":"#8aceff","primary-container":"#c8102e","on-tertiary-fixed":"#001e2f","error-container":"#ffdad6","editorial-crimson":"#C8102E","on-primary-container":"#ffdad8","on-secondary-fixed":"#0d1c32","on-surface":"#111c2d","on-primary-fixed":"#410007","surface-container-highest":"#d8e3fb","tertiary":"#005277","on-surface-variant":"#5c403f","on-primary":"#ffffff","surface-variant":"#d8e3fb","on-error-container":"#93000a","on-primary-fixed-variant":"#92001c","live-alert":"#DC2626","primary-fixed":"#ffdad8","primary":"#9e001f","ink-midnight":"#0A192F","slate-border-subtle":"#F1F5F9","outline":"#906f6e","primary-fixed-dim":"#ffb3b1","surface-tint":"#bf0229","inverse-on-surface":"#ecf1ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","gutter-desktop":"1.75rem","margin-desktop":"3rem","space-sm":"0.5rem","space-md":"0.875rem","space-xl":"2.25rem","margin":"1rem","gutter":"1.25rem","space-xs":"0.25rem","space-xxl":"3.5rem"},"fontFamily":{"body-lg":["Noto Sans"],"lead":["Noto Sans"],"headline-sm":["Newsreader"],"caption":["Noto Sans"],"body-sm":["Noto Sans"],"headline-lg":["Newsreader"],"label-badge":["Noto Sans"],"headline-lg-mobile":["Newsreader"],"body-md":["Noto Sans"],"headline-xl":["Newsreader"],"headline-xl-mobile":["Newsreader"],"label-ticker":["Noto Sans"],"headline-md":["Newsreader"]},"fontSize":{"body-lg":["17px",{"lineHeight":"28px","fontWeight":"400"}],"lead":["18px",{"lineHeight":"30px","fontWeight":"400"}],"headline-sm":["19px",{"lineHeight":"26px","fontWeight":"600"}],"caption":["12px",{"lineHeight":"16px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-badge":["11px",{"lineHeight":"14px","letterSpacing":"0.05em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"headline-xl":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-ticker":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}]}}}};</script>  <link rel="stylesheet" href="assets/css/portal.css"/>
+</head><body class="bg-parchment-base font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-pure/95 backdrop-blur-md shadow-[0_2px_8px_rgba(10,25,47,0.04)]"><div class="bg-ink-midnight text-surface-pure"><div class="max-w-[1360px] mx-auto px-margin-desktop h-9 flex items-center justify-between font-caption text-caption"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-secondary-fixed-dim">calendar_today</span><span>2025 മാർച്ച് 29, ശനി</span></span><span class="hidden md:flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-opinion-ochre">wb_sunny</span><span>കൊച്ചി 31°C</span></span><div class="hidden lg:flex items-center gap-2"><span class="text-secondary-fixed-dim">പതിപ്പുകൾ:</span><span class="cursor-pointer text-surface-pure hover:underline">തിരുവനന്തപുരം</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">കൊച്ചി</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">കോഴിക്കോട്</span><span class="text-secondary-fixed-dim">|</span><span class="cursor-pointer text-surface-pure hover:underline">ഗൾഫ് / NRI</span></div></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-1 text-tertiary-fixed hover:underline" data-path="epaper" href="epaper.html"><span class="material-symbols-outlined text-sm">newspaper</span><span>ഇ-പേപ്പർ</span></a><div class="flex items-center gap-1 bg-ink-midnight/80 px-1.5 py-0.5 rounded"><span class="text-secondary-fixed-dim text-caption mr-1">അക്ഷരവലിപ്പം:</span><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors" title="ചെറുത്">A-</button><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors font-bold" title="സാധാരണ">A</button><button class="px-1 text-caption text-surface-pure hover:bg-secondary/40 rounded transition-colors" title="വലുത്">A+</button></div></div></div></div><div class="max-w-[1360px] mx-auto px-margin-desktop h-20 flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><a href="index.html" class="flex items-center gap-space-md"><img alt="Vartha Veethi Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X5RAdrH3DaCoyIIwCzukOlwxTmzaCexpvGWiLPA7SSKA2yaVTSsYBYWCnCoqOiO4m-fWtqkYTdwJizi_R2fPGeBSqIDGmSDBQTKjnsnSrpkXhwdWGmEmvvLnDInQDuy54m0kBsG5PvAlJVlrqc087Om_c33SZMX9DMY2Qfp40aEfUmPSAw0nyzx7gyQnHYzbuSlpMnCnqMBKaoZS3rfA05pFNr2CmEfdZorMgJBTrTIZYtcx0Al_mrtmk"/><div class="flex flex-col"><span class="font-headline-lg text-headline-lg text-primary tracking-tight leading-none">വാർത്താവീഥി</span><span class="font-caption text-caption text-secondary tracking-widest uppercase mt-0.5">VARTHA VEETHI • KERALA'S VOICE</span></div></a></div><div class="hidden md:flex items-center bg-error-container/40 text-editorial-crimson px-space-md py-1.5 rounded-full gap-2"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-editorial-crimson opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-editorial-crimson"></span></span><span class="font-label-ticker text-label-ticker tracking-wide">ലൈവ് അപ്‌ഡേറ്റുകൾ സജീവം</span></div><div class="flex items-center gap-space-md flex-1 max-w-md justify-end"><div class="relative w-full max-w-xs hidden sm:block"><input class="w-full bg-parchment-base rounded-full py-1.5 pl-9 pr-4 font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary" placeholder="വാർത്തകൾ തിരയുക..." type="search"/><span class="material-symbols-outlined absolute left-2.5 top-2 text-secondary text-base">search</span></div><div class="flex items-center gap-space-sm"><button class="p-1.5 text-secondary hover:text-primary transition-colors" title="അറിയിപ്പുകൾ"><span class="material-symbols-outlined text-xl">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-secondary-fixed-dim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxYYHCHhgyTEaleB6KsujrLK-JvitACp_ZFM9MzEdJHRi_d0C8VmnMzOMMK-u17yasy2NbId1bupaXx_4iKs7XB4NIsCyIMXn7JOo-i4lhEaGeuiJqzKaFNUK_uCGRG1iVGWYcRUi-lMTeHPm6pPJC6HutiF0Xl7HEQ7HuFeWxUUfN_nsHYk1DHLIWHirfqJMPcqiJ40oqxD3WwteEtcQZ7l_jZeoa1V71xJOQcf9qH8cfFOMF27T8"/></div></div></div><div class="bg-surface-pure"><div class="max-w-[1360px] mx-auto px-margin-desktop overflow-x-auto"><nav class="flex items-center gap-1 py-1 min-w-max text-body-sm font-body-sm" data-active-classes="text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high"><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="home" href="index.html">പ്രധാന വാർത്തകൾ</a><a aria-current="page" class="px-3 py-1.5 rounded-sm transition-colors text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-path="kerala" href="kerala.html" class="px-3 py-1.5 rounded-sm transition-colors bg-primary-container text-on-primary font-bold" aria-current="page">കേരളം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="national" href="#">ദേശം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="world" href="#">ലോകം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="politics" href="#">രാഷ്ട്രീയം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="business" href="#">ബിസിനസ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="cinema-arts" href="#">സിനിമ &amp; കല</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="sports" href="#">സ്പോർട്സ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="editorial-opinion" href="#">അഭിപ്രായം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="diaspora-gulf" href="pravasi.html">പ്രവാസം</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="tech-lifestyle" href="#">ടെക് &amp; ലൈഫ്</a><a class="px-3 py-1.5 rounded-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-1 font-bold" data-path="live-tv" href="#"><span class="inline-block w-2 h-2 rounded-full bg-live-alert animate-pulse"></span>ലൈവ് ടിവി</a></nav></div></div><div class="bg-parchment-base"><div class="max-w-[1360px] mx-auto px-margin-desktop h-10 flex items-center overflow-hidden"><div class="flex items-center bg-primary text-on-primary px-3 py-1 font-label-ticker text-label-ticker uppercase shrink-0 gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-surface-pure animate-ping"></span><span>ബ്രേക്കിംഗ്</span></div><div class="overflow-hidden whitespace-nowrap px-4 text-body-sm font-body-sm text-on-surface flex-1"><span class="inline-block text-on-surface hover:text-primary transition-colors cursor-pointer">സംസ്ഥാനത്ത് വേനൽമഴ ശക്തമാകാൻ സാധ്യത: തെക്കൻ ജില്ലകളിൽ യെല്ലോ അലർട്ട് പ്രഖ്യാപിച്ചു • തിരുവനന്തപുരം മെട്രോ പദ്ധതിയുടെ പുതുക്കിയ ഡിപിആർ കേന്ദ്രാനുമതിക്കായി സമർപ്പിച്ചു</span></div></div></div></header><main class="w-full pt-48 bg-parchment-base"><div class="flex flex-col w-full">
+<!-- SECTION HEADER & FILTERS -->
+<section class="w-full bg-surface-pure shadow-sm">
+<div class="max-w-[1360px] mx-auto px-4 md:px-margin-desktop py-space-md">
+<!-- Breadcrumb & Live Stamp -->
+<div class="flex flex-wrap items-center justify-between gap-2 mb-space-sm text-caption font-caption text-secondary">
+<div class="flex items-center gap-1.5">
+<a class="hover:text-primary transition-colors" href="#">ഹോം</a>
+<span class="text-secondary-fixed-dim">/</span>
+<span class="text-editorial-crimson font-bold">കേരളം</span>
+<span class="text-secondary-fixed-dim">/</span>
+<span class="text-on-surface">സമഗ്ര വാർത്തകൾ</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-low px-2.5 py-1 rounded-full text-secondary">
+<span class="inline-block w-2 h-2 rounded-full bg-live-alert animate-ping"></span>
+<span class="font-label-badge text-label-badge">തത്സമയ ഡെസ്ക് • 14 ജില്ലകൾ സജീവം</span>
+</div>
+</div>
+<!-- Section Title & Sub-category Bar -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-space-sm">
+<div class="flex items-baseline gap-3">
+<h1 class="font-headline-lg text-headline-lg text-ink-midnight tracking-tight m-0">കേരളം</h1>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest font-bold">State Newsroom</span>
+</div>
+<!-- Category Navigation Chips -->
+<div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-primary text-on-primary font-bold shadow-sm whitespace-nowrap">സമഗ്രം</button>
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap">രാഷ്ട്രീയം</button>
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap">ഭരണം &amp; നിയമസഭ</button>
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap">വിദ്യാഭ്യാസം</button>
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap">ക്രൈം &amp; ക്രമസമാധാനം</button>
+<button class="px-3 py-1 text-body-sm font-body-sm rounded bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap">വികസനം &amp; അടിസ്ഥാനസൗകര്യം</button>
+</div>
+</div>
+<!-- 14 District Quick Filter Pills Bar -->
+<div class="pt-space-sm mt-space-xs flex items-center gap-2 overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-1 text-caption font-caption text-secondary shrink-0 pr-1">
+<span class="material-symbols-outlined text-sm text-editorial-crimson">location_on</span>
+<span>ജില്ലകൾ:</span>
+</div>
+<div class="flex items-center gap-1.5 min-w-max pb-1" id="district-pill-container">
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-ink-midnight text-surface-pure hover:bg-ink-midnight/90 transition-colors">എല്ലാം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">തിരുവനന്തപുരം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">കൊല്ലം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">പത്തനംതിട്ട</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">ആലപ്പുഴ</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">കോട്ടയം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">ഇടുക്കി</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">എറണാകുളം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">തൃശ്ശൂർ</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">പാലക്കാട്</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">മലപ്പുറം</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">കോഴിക്കോട്</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">വയനാട്</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">കണ്ണൂർ</button>
+<button class="px-2.5 py-0.5 rounded text-caption font-caption bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors">കാസർഗോഡ്</button>
+</div>
+</div>
+</div>
+</section>
+<!-- KERALA HERO & TOP STORIES SECTION -->
+<section class="max-w-[1360px] mx-auto px-4 md:px-margin-desktop py-space-xl w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<!-- Dominant Hero Card (60% / 7 cols) -->
+<article class="lg:col-span-7 bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<!-- Tags & Alert status -->
+<div class="flex items-center justify-between mb-space-sm">
+<span class="bg-editorial-crimson text-on-primary font-label-badge text-label-badge px-2.5 py-0.5 rounded uppercase tracking-wide">പ്രധാന വാർത്ത</span>
+<span class="font-caption text-caption text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span> 14 മിനിറ്റ് മുൻപ്
+            </span>
+</div>
+<!-- Hero Image -->
+<div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-space-md bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Wide shot of the Kerala Legislative Assembly chamber in Thiruvananthapuram with elected members in traditional attire, warm architectural lighting, ornate wood paneling, and an active parliamentary debate atmosphere in classical photojournalistic style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnQO5MhPkMYPN6OIIn2RomZutbPNVdMfste5oxarmR9YWEK3kC7MSdixUF-8_-BtrrMXwxmTVL9fwJRmah2NjcEBR-4paNqVhMthef6cp5szXMMhSCOHJGAHeX7_VnHRDmnNJVpklcNyNvX6VKzFmiGNyWxqTbB-05Y5QjiEPJYKTPlsczRJsFqGZrRBBqNe2L_aBm7LKKo37xuzaMb1951udGfS4A5teO6QcLGTSEglr3vGlmSJwv"/>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ink-midnight/80 to-transparent p-space-md flex justify-between items-end">
+<span class="text-surface-pure font-caption text-caption flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">photo_camera</span> നിയമസഭാ മന്ദിരം, തിരുവനന്തപുരം
+              </span>
+<span class="bg-primary-container text-on-primary font-caption text-caption px-2 py-0.5 rounded font-bold">ലൈവ് കവറേജ്</span>
+</div>
+</div>
+<!-- Headline -->
+<h2 class="font-headline-xl text-headline-xl text-ink-midnight leading-tight hover:text-editorial-crimson transition-colors cursor-pointer mb-space-sm">
+            കേരള നിയമസഭാ സമ്മേളനം നാളെ തുടങ്ങും; ബജറ്റ് ചർച്ചയും അടിയന്തര പ്രമേയങ്ങളും സഭയെ പ്രക്ഷുബ്ധമാക്കിയേക്കും
+          </h2>
+<!-- Lead Paragraph -->
+<p class="font-body-lg text-body-lg text-secondary leading-relaxed mb-space-md">
+            സംസ്ഥാനത്തെ സാമ്പത്തിക പ്രതിസന്ധി, റബ്ബർ താങ്ങുവില വിഹിതം, വന്യജീവി സംഘർഷം എന്നിവയിൽ ഭരണ-പ്രതിപക്ഷ വാഗ്വാദം രൂക്ഷമാകുമെന്ന് സൂചന. മൂന്ന് സുപ്രധാന ഓർഡിനൻസുകൾക്ക് പകരമുള്ള നിയമനിർമ്മാണങ്ങൾ ആദ്യ വാരം തന്നെ സഭയുടെ പരിഗണനയിലെത്തും.
+          </p>
+</div>
+<!-- Explainer Mini Box (Bills to be introduced) -->
+<div class="bg-surface-container-low rounded-lg p-space-md mt-space-sm">
+<div class="flex items-center gap-2 mb-space-xs text-primary font-bold">
+<span class="material-symbols-outlined text-base">gavel</span>
+<span class="font-caption text-caption uppercase tracking-wider">പ്രധാന അജണ്ടകൾ &amp; ബില്ലുകൾ</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm font-caption text-caption text-on-surface">
+<div class="p-2 bg-surface-pure rounded">
+<span class="font-bold text-editorial-crimson block mb-0.5">ധനവിനിയോഗ ബിൽ</span>
+              അധിക ചെലവുകൾക്കുള്ള അനുമതിയും പുതിയ തദ്ദേശ വായ്പാ ഭേദഗതികളും.
+            </div>
+<div class="p-2 bg-surface-pure rounded">
+<span class="font-bold text-editorial-crimson block mb-0.5">ഭൂവിനിയോഗ ഭേദഗതി</span>
+              മലയോര കർഷകരുടെ ദീർഘകാല പട്ടയ തർക്കങ്ങൾക്കുള്ള ശാശ്വത പരിഹാരം.
+            </div>
+<div class="p-2 bg-surface-pure rounded">
+<span class="font-bold text-editorial-crimson block mb-0.5">നഗരസഭാ ചട്ടങ്ങൾ</span>
+              കൊച്ചി, കോഴിക്കോട് കോർപ്പറേഷനുകളിലെ മാലിന്യ സംസ്കരണ പിഴ വ്യവസ്ഥകൾ.
+            </div>
+</div>
+</div>
+</article>
+<!-- Regional Scoops & Curated Stack (40% / 5 cols) -->
+<aside class="lg:col-span-5 flex flex-col justify-between gap-space-md">
+<!-- Scoop Card 1 -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex gap-space-md">
+<div class="w-1/3 shrink-0 rounded-lg overflow-hidden bg-surface-container relative aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="High angle shot of the bustling Kochi marine drive waterfront and shipping harbor under late afternoon tropical sky, deep navy blue water with maritime vessels and urban skyline." src="https://lh3.googleusercontent.com/aida-public/AB6AXuACREA6jzy-d17qDQGKK_InXY0QDyjnwC0LyvxWinWW1pV0bVlDTPVDkCVa4hAjNNhv7nmrmLMi_thCpksdt2mHlEQJmzz3Dp4027nbnhPsUdh1AFPl2ddMP-4my0GhY8I_i_6xo7KfLu8-qE4n560pRUk6V2R90Jd9gohAlWOZCHqhzfaxu0x1XyqSibwzjt6DjRiUIoU_tC-QnbnsoPe-d3AIKK-IzDh-De5JYhGtHcNTUnK7fFle"/>
+<span class="absolute top-1 left-1 bg-opinion-ochre text-surface-pure font-label-badge text-label-badge px-1.5 py-0.5 rounded uppercase">അന്വേഷണം</span>
+</div>
+<div class="w-2/3 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-caption font-caption text-editorial-crimson font-bold">എറണാകുളം</span>
+<span class="text-caption font-caption text-secondary">• 35 മിനിറ്റ് മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight line-clamp-2 hover:text-primary transition-colors cursor-pointer">
+                കൊച്ചി മെട്രോ രണ്ടാം ഘട്ട കാക്കനാട് പാത: ടെൻഡർ നടപടികളിൽ വൻ വേഗത; നിർമ്മാണം അടുത്ത മാസം
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-1">
+              ഇൻഫോപാർക്ക് ജീവനക്കാർക്ക് ആശ്വാസമായി ജവഹർലാൽ നെഹ്റു സ്റ്റേഡിയം മുതൽ ഇൻഫോപാർക്ക് വരെയുള്ള പാതയ്ക്ക് ഭൂമി ഏറ്റെടുക്കൽ പൂർത്തിയായി.
+            </p>
+</div>
+</article>
+<!-- Scoop Card 2 -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex gap-space-md">
+<div class="w-1/3 shrink-0 rounded-lg overflow-hidden bg-surface-container relative aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="Dense tea plantations and foggy mountain slopes in Wayanad Kerala with solar fencing and forest border markers, rich moody emerald greens and soft misty atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3l0-GthYXkZ9G0o58mrSYsofzC0I31TUvw9hDiwN5Lc-P1jV1-6DpfylG5zPybuWilvb6L_b_b5fRJATqDJwGRAMBY7i3BIN7zX1zZEmMBapsonvr4UpDGZSN2d2_RMRxXWtvUYj_sqKAGOvICgDj1jfu7iYwW4K6ew8tJetMDtlv1LU1o1-bIEDNpDgV0vSlIvG7Rn4oo0Jgk9yG-pLKvPhLbT2qk1Ze1sDuk4rzmNWMk6TrmG83"/>
+<span class="absolute top-1 left-1 bg-primary text-on-primary font-label-badge text-label-badge px-1.5 py-0.5 rounded uppercase">പ്രത്യേകം</span>
+</div>
+<div class="w-2/3 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-caption font-caption text-editorial-crimson font-bold">വയനാട്</span>
+<span class="text-caption font-caption text-secondary">• 1 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight line-clamp-2 hover:text-primary transition-colors cursor-pointer">
+                വന്യജീവി പ്രതിരോധത്തിന് AI ക്യാമറ ശൃംഖല: അതിർത്തി വനമേഖലകളിൽ ആദ്യ ട്രയൽ വിജയകരം
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-1">
+              കാട്ടാനകളുടെ സഞ്ചാരപഥം മുൻകൂട്ടി കണ്ടെത്തി ജനവാസ കേന്ദ്രങ്ങളിലേക്ക് സന്ദേശം അയക്കുന്ന സ്മാർട്ട് സെൻസറുകൾ സ്ഥാപിച്ചു.
+            </p>
+</div>
+</article>
+<!-- Scoop Card 3 -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex gap-space-md">
+<div class="w-1/3 shrink-0 rounded-lg overflow-hidden bg-surface-container relative aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="Close up of traditional brass traditional lamp and university convocation ceremony stage in Calicut Kerala, warm interior ambient lighting and cultural gravitas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-Fs2yskLHPOi0kFZnIpxQJv5DpyOpZCbfVOmI_PQKagjnDJkrkJodqd9km_1sF9v5sMBofTzOjd9Uy5yE5X_maSuVl14zmHD01raS58M-CID7F-SpzbTtkbuzAhKcXhX9_YdOEz1yslYaGhLGKVkBR5M5VthDe4tQ4lHzc89sa8L9Q3DZ_0JyCtEh25BVSifnS0pMGELarS0Nz1IVSb89rRKXKhVC8o_324AjDIvgDG-Z2vu748E3"/>
+<span class="absolute top-1 left-1 bg-ink-midnight text-surface-pure font-label-badge text-label-badge px-1.5 py-0.5 rounded uppercase">വിദ്യാഭ്യാസം</span>
+</div>
+<div class="w-2/3 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-caption font-caption text-editorial-crimson font-bold">കോഴിക്കോട്</span>
+<span class="text-caption font-caption text-secondary">• 2 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight line-clamp-2 hover:text-primary transition-colors cursor-pointer">
+                കാലിക്കറ്റ് സർവകലാശാല നാലുവർഷ ബിരുദ കോഴ്സുകൾ: കരിക്കുലം പരിഷ്കരണം അന്തിമഘട്ടത്തിൽ
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-1">
+              ഗവേഷണത്തിനും വ്യാവസായിക പരിശീലനത്തിനും തുല്യ പ്രാധാന്യം നൽകുന്ന പുത്തൻ സിലബസിന് അക്കാദമിക് കൗൺസിൽ അംഗീകാരം നൽകി.
+            </p>
+</div>
+</article>
+<!-- Live Bulletins Ticker Box -->
+<div class="bg-surface-container-high rounded-xl p-space-md">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-badge text-label-badge text-ink-midnight uppercase tracking-wider font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-editorial-crimson">bolt</span>
+              തത്സമയ കേരളം ക്വിക്ക് ബ്രീഫ്
+            </span>
+<span class="text-caption font-caption text-secondary font-bold">12:30 PM UPDATE</span>
+</div>
+<ul class="space-y-2 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-start gap-2">
+<span class="text-editorial-crimson font-bold">•</span>
+<span><strong>കണ്ണൂർ:</strong> തളിപ്പറമ്പിൽ നിയന്ത്രണം വിട്ട സ്വകാര്യ ബസ് പോസ്റ്റിലിടിച്ച് 8 പേർക്ക് പരിക്ക്; രക്ഷാപ്രവർത്തനം പൂർത്തിയായി.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-editorial-crimson font-bold">•</span>
+<span><strong>പാലക്കാട്:</strong> മലമ്പുഴ അണക്കെട്ടിലെ ജലനിരപ്പ് ക്രമാനുഗതമായി കുറയുന്നു; വേനൽക്കാല ജലവിതരണത്തിന് കർശന നിയന്ത്രണം.</span>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+</section>
+<!-- GROUND REPORT & ENVIRONMENTAL INVESTIGATION (EDITORIAL CONTRAST) -->
+<section class="w-full bg-ink-midnight text-surface-pure py-space-xxl my-space-lg">
+<div class="max-w-[1360px] mx-auto px-4 md:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-space-xl">
+<div>
+<div class="flex items-center gap-2 mb-2 text-editorial-crimson">
+<span class="material-symbols-outlined text-lg">explore</span>
+<span class="font-label-ticker text-label-ticker uppercase tracking-widest text-inverse-primary">വാർത്താവീഥി ഫീൽഡ് ഇൻവെസ്റ്റിഗേഷൻ</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-pure m-0">ഗ്രൗണ്ട് റിപ്പോർട്ട്: പശ്ചിമഘട്ടവും കുട്ടനാടും</h2>
+<p class="font-lead text-lead text-secondary-fixed-dim mt-1 max-w-2xl">
+            കാലാവസ്ഥാ വ്യതിയാനവും ആവാസവ്യവസ്ഥാ പ്രതിസന്ധികളും കേരളത്തിൻ്റെ പരിസ്ഥിതിയിലും കാര്ഷിക മേഖലയിലും സൃഷ്ടിക്കുന്ന പ്രത്യാഘാതങ്ങൾ.
+          </p>
+</div>
+<div class="shrink-0">
+<span class="bg-secondary/40 text-surface-pure font-caption text-caption px-3 py-1.5 rounded-full flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-opinion-ochre">verified</span> സ്പെഷ്യൽ എഡിറ്റോറിയൽ സീരീസ്
+          </span>
+</div>
+</div>
+<!-- 2-Column High Impact Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-stretch">
+<!-- Story 1: Kuttanad Paddy & Agrarian Crisis with SVG Graphic (7 Cols) -->
+<article class="lg:col-span-7 bg-surface-pure/5 rounded-xl p-space-lg flex flex-col justify-between backdrop-blur-sm">
+<div>
+<div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-space-md bg-ink-midnight">
+<img class="w-full h-full object-cover" data-alt="Lush green paddy fields submerged in shallow backwaters of Kuttanad Alappuzha under dramatic monsoon clouds with traditional wooden canoes and farmer silhouettes in rich photojournalism tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjYFMT1dMbx9DLVOaAz7CF6hWUf76x3R-_rCG5vYAwcnP3rGw1mIiQgLuej8YzWVhKLS5GHq5YTRbvMsBbZjweLyxLeaSfrwvOZbhiRCCKNn3dspQCuyiqS8TqVUonmIGN9dJVG1HRwpK4JkLrJYl2AyiNvqAsIIQ4TvSJhFaog9s7bzYu8q4w8eAoAS6Kx0mwTPfuAXbLHbaQCu3LABkn5FIcjobePeHMW48-1RqJxVpGlo27TVvg"/>
+<div class="absolute top-3 left-3 bg-opinion-ochre text-surface-pure font-label-badge text-label-badge px-2.5 py-1 rounded uppercase font-bold">
+                ആലപ്പുഴ • കുട്ടനാട്
+              </div>
+</div>
+<h3 class="font-headline-md text-headline-md text-surface-pure hover:text-tertiary-fixed transition-colors cursor-pointer mb-space-sm leading-snug">
+              സമുദ്രനിരപ്പിന് താഴെയുള്ള കൃഷിഭൂമി: കുട്ടനാടൻ പാടശേഖരങ്ങളിലെ ഉപ്പുവെള്ളക്കയറ്റവും കർഷകരുടെ നിലനിൽപ്പും
+            </h3>
+<p class="font-body-md text-body-md text-secondary-fixed-dim leading-relaxed mb-space-md">
+              തോട്ടപ്പള്ളി സ്പിൽവേയുടെ സ്വാഭാവിക ഒഴുക്ക് തടസ്സപ്പെട്ടതും തണ്ണീർമുക്കം ബണ്ടിൻ്റെ ക്രമീകരണത്തിലെ കാലതാമസവും കുട്ടനാട്ടിലെ രണ്ടാംവിള നെൽകൃഷിയെ സാരമായി ബാധിക്കുന്നു. രാസവളങ്ങളുടെ ഉപയോഗവും ചെളി അടിഞ്ഞുകൂടലും പാടങ്ങളിലെ സ്വാഭാവിക ഉൽപാദനക്ഷമതയെ 40% കുറച്ചതായി വിദഗ്ദ്ധ പഠനം.
+            </p>
+</div>
+<!-- Infographic Data Component: 10 Year Paddy Acreage Shift -->
+<div class="bg-ink-midnight/80 p-space-md rounded-lg">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-badge text-label-badge text-surface-pure uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-editorial-crimson">analytics</span> നെൽകൃഷി വിസ്തൃതി: 10 വർഷത്തെ മാറ്റം (ഹെക്ടറിൽ)
+              </span>
+<span class="font-caption text-caption text-secondary-fixed-dim">ഡാറ്റ: കൃഷി വകുപ്പ്</span>
+</div>
+<!-- Custom Clean SVG Bar Chart -->
+<div class="w-full">
+<div class="grid grid-cols-4 gap-2 text-caption font-caption text-surface-pure text-center">
+<div class="flex flex-col items-center">
+<div class="h-20 w-full flex items-end justify-center bg-surface-pure/5 rounded-t p-1">
+<div class="w-full bg-secondary-fixed-dim rounded-t h-[92%] transition-all"></div>
+</div>
+<span class="mt-1 text-secondary-fixed-dim">2014</span>
+<span class="font-bold">2.3 ലക്ഷം</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="h-20 w-full flex items-end justify-center bg-surface-pure/5 rounded-t p-1">
+<div class="w-full bg-secondary-fixed-dim rounded-t h-[80%] transition-all"></div>
+</div>
+<span class="mt-1 text-secondary-fixed-dim">2017</span>
+<span class="font-bold">2.0 ലക്ഷം</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="h-20 w-full flex items-end justify-center bg-surface-pure/5 rounded-t p-1">
+<div class="w-full bg-secondary-fixed-dim rounded-t h-[72%] transition-all"></div>
+</div>
+<span class="mt-1 text-secondary-fixed-dim">2021</span>
+<span class="font-bold">1.8 ലക്ഷം</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="h-20 w-full flex items-end justify-center bg-surface-pure/5 rounded-t p-1">
+<div class="w-full bg-editorial-crimson rounded-t h-[64%] transition-all"></div>
+</div>
+<span class="mt-1 text-editorial-crimson font-bold">2024</span>
+<span class="font-bold text-surface-pure">1.6 ലക്ഷം</span>
+</div>
+</div>
+</div>
+<div class="mt-2 text-caption font-caption text-secondary-fixed-dim flex justify-between items-center">
+<span>* കുട്ടനാട്, പാലക്കാട് സംയുക്ത കണക്കെടുപ്പ്</span>
+<span class="text-opinion-ochre font-bold">-30.4% കുറവ്</span>
+</div>
+</div>
+</article>
+<!-- Story 2: Western Ghats Landslide & Eco Zone (5 Cols) -->
+<article class="lg:col-span-5 bg-surface-pure/5 rounded-xl p-space-lg flex flex-col justify-between backdrop-blur-sm">
+<div>
+<div class="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-space-md bg-ink-midnight">
+<img class="w-full h-full object-cover" data-alt="High altitude misty mountain ridge of Western Ghats in Idukki with rocky terrain, cardamom plantations, and low cloud cover in deep atmospheric contrast." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcKgOmSZ3-wP7xe9z-YLRkrkLPgvo-qPWL65ZJ_LwEawIlDx_ylctgWDGO8KDll4wzOfeUWWbnLJLzhuKe_grKPDRuVxIMM8kX7bPZgPl916hGY17RKwEyhyEVLfYM_KIc2p023ZW9Kvo2W5JEc_lvR0BhIdNYPSxkgjPCSE1JYv32lz5SXQc1wwSjA-Bxo9ISIJLnTZVvfftINKZdetRL9rv3LpU9ZOSRZckAYf49VrWzqp42I1gr"/>
+<div class="absolute top-3 left-3 bg-editorial-crimson text-on-primary font-label-badge text-label-badge px-2.5 py-1 rounded uppercase font-bold">
+                ഇടുക്കി • പരിസ്ഥിതി
+              </div>
+</div>
+<h3 class="font-headline-md text-headline-md text-surface-pure hover:text-tertiary-fixed transition-colors cursor-pointer mb-space-sm leading-snug">
+              പശ്ചിമഘട്ടത്തിലെ നിർമ്മാണ നിയന്ത്രണങ്ങൾ: തദ്ദേശവാസികളുടെ ആശങ്കകളും പരിഹാര സാധ്യതകളും
+            </h3>
+<p class="font-body-md text-body-md text-secondary-fixed-dim leading-relaxed mb-space-md">
+              ഇടുക്കിയിലെയും വയനാട്ടിലെയും ദുരന്തബാധിത മേഖലകളിൽ മൈക്രോ സോണിംഗ് മാപ്പിംഗ് ആരംഭിച്ചു. സാറ്റലൈറ്റ് റഡാർ സംവിധാനമുപയോഗിച്ച് മണ്ണിടിച്ചിൽ സാധ്യതകൾ മുൻകൂട്ടി കണ്ടെത്താൻ ദുരന്തനിവാരണ അതോറിറ്റി സമഗ്ര പദ്ധതി സമർപ്പിച്ചു.
+            </p>
+</div>
+<!-- Quote & Byline Box -->
+<div class="bg-surface-pure/10 p-space-md rounded-lg">
+<p class="font-body-sm text-body-sm text-surface-pure italic mb-space-sm">
+              "പ്രകൃതി ദുരന്തങ്ങൾ തടയുന്നതിനൊപ്പം പതിറ്റാണ്ടുകളായി മണ്ണിൽ വിയർപ്പൊഴുക്കുന്ന കർഷകൻ്റെ കിടപ്പാടം സംരക്ഷിക്കപ്പെടണം."
+            </p>
+<div class="flex items-center gap-3">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Senior Indian investigative environmental journalist portrait with glasses, thoughtful expression, studio portrait style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTQx_XPQaDVKNGHkGF37VkPSm7Wvkfhmu0zYv2zwt1xSImqKdReZRyAIWfiFhhCki3r_F5zupS4uH2GbhhdR8h_68175W3rhppS0xb9xBijKPSV9yHKipQZqi-NleUAtYnFkLv9idtWtFiyHMjmrm395I9gPLhK17BMcAcx0Yp32K742sSUrBO0H7y6q3VFGpQ_i-8JJOaTuA4stgP4TsgLkHSOhVObeuEqioW9pbBdE-4DqnZ-QJA"/>
+<div>
+<span class="font-body-sm text-body-sm font-bold text-surface-pure block">മാത്യു വർഗ്ഗീസ്</span>
+<span class="font-caption text-caption text-secondary-fixed-dim">സീനിയർ എൻവയോൺമെന്റൽ കറസ്പോണ്ടന്റ്</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- DISTRICT SPOTLIGHT GRID (NORTH, CENTRAL, SOUTH) -->
+<section class="max-w-[1360px] mx-auto px-4 md:px-margin-desktop py-space-xl w-full">
+<!-- Section Title & Region Toggle -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-space-md mb-space-lg">
+<div>
+<span class="font-label-badge text-label-badge text-editorial-crimson uppercase tracking-widest font-bold">പ്രാദേശിക വാർത്തകൾ</span>
+<h2 class="font-headline-lg text-headline-lg text-ink-midnight m-0">ജില്ലാ വാർത്താ ജാലകം (District Spotlight)</h2>
+</div>
+<div class="flex items-center gap-1 bg-surface-pure p-1 rounded-lg shadow-sm">
+<button class="px-3 py-1 font-body-sm text-body-sm rounded font-bold bg-primary text-on-primary">എല്ലാ മേഖലകളും</button>
+<button class="px-3 py-1 font-body-sm text-body-sm rounded text-secondary hover:text-on-surface hover:bg-surface-container transition-colors">തെക്കൻ കേരളം</button>
+<button class="px-3 py-1 font-body-sm text-body-sm rounded text-secondary hover:text-on-surface hover:bg-surface-container transition-colors">മധ്യ കേരളം</button>
+<button class="px-3 py-1 font-body-sm text-body-sm rounded text-secondary hover:text-on-surface hover:bg-surface-container transition-colors">വടക്കൻ കേരളം</button>
+</div>
+</div>
+<!-- 3x2 High Density Responsive Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop">
+<!-- Card 1: South (Thiruvananthapuram) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Vizhinjam International Seaport breakwater and massive automated cargo cranes with large container vessel docked during daytime, clear blue Arabian Sea horizon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZstdOxkdopQYvSZ9y3Z0TxXOOvTSK699jHfog8-jVYPeZMqtHQDt-NFaZNgz2sgCrEH2g52RDFp_zaJ43-eZUwwu1WMjFtXo_y4l2172rsm81hXPavQBKpXQO8FvBKV0c_pdvhF5nMxhQypEvaXxkF8uERveBHPBeAiehm4iMDhc1wnmC3qQ6xPZcAOJZvkgNxGvHLl9pBf9dh4Y-b1Rd9EIeBtGsTyrutYIV0vog_Y0ltUqNFixN"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">തിരുവനന്തപുരം</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>വിഴിഞ്ഞം അന്താരാഷ്ട്ര തുറമുഖം</span>
+<span>•</span>
+<span>45 മിനിറ്റ് മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            വിഴിഞ്ഞത്ത് ആദ്യ മദർഷിപ്പ് ബെർത്തിംഗ് അടുത്തയാഴ്ച: ട്രയൽ റൺ വിജയകരമായി പൂർത്തിയായി
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            ദക്ഷിണേന്ത്യൻ വാണിജ്യ ചരിത്രത്തിൽ പുതിയ അധ്യായം കുറിച്ച് 300 മീറ്ററിലധികം നീളമുള്ള കണ്ടെയ്നർ കപ്പൽ എത്തുന്നു.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 12.4k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+<!-- Card 2: South (Kollam) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Traditional cashew processing factory in Kollam with workers inspecting raw cashew nuts, warm industrial ambient glow and documentary style realism." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc752aw3tXg5G_RnjHgSfLLM5R-AY7pMYBF8_W-Srusue1u2bbSKSSBwa-FlxFvGWdoP7VRrMtrUU_fywTTDqXpNnD0Lt3YVNG0PNEy4zyEsnGcElxxU8xEwoBgMEuF6IXeXmDVpqmWjvcpgUlRdxb5jr4gfeB-gYxpxk8Yx6d7OwkVCoSvzXm8jOiD1to9Pvc8wHg7O3PojJdi2MobyF_-H3GJiLaslUTS5ruos8DFP-NYemKwckx"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">കൊല്ലം</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>തൊഴിൽ &amp; വ്യവസായം</span>
+<span>•</span>
+<span>1 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            കശുവണ്ടി മേഖലയിലെ പ്രതിസന്ധി പരിഹരിക്കാൻ സർക്കാർ സബ്സിഡി: ഫാക്ടറികൾ തുറന്നുപ്രവർത്തിക്കും
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            തൊഴിലാളികൾക്ക് നൽകാനുള്ള ഇഎസ്ഐ, ബോണസ് കുടിശ്ശിക തീർപ്പാക്കാൻ ധനവകുപ്പ് 80 കോടി രൂപ അനുവദിച്ചു.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 8.1k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+<!-- Card 3: Central (Thrissur) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="The iconic Vadakkumnathan temple round in Thrissur illuminated in golden sunset light with festival procession rehearsals and Kerala heritage temple architecture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHWNkEfk1uts1ghfHtgTxSB93c3tLfkGcQPgbK8elW4uXyArcJ9OhmAYc2viALiX-wUshlRTajEH22FOlJ2U8XoRA-dAh_Lo3JEqkJTL5zfAJC1s0Rh3x11G5TLf6HmRQGdci5J3Jp2XYvvT4azL9uyC2gmizPbOAQN-tK5FmkPjYzAENJbImpeGqwDqWQkCrmVcYaxfGbjdnCBpYjwmT_qtdG6NuwIuUMbL6x7Hlz-f5hzC2Iogkl"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">തൃശ്ശൂർ</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>പൂരം ഒരുക്കങ്ങൾ</span>
+<span>•</span>
+<span>2 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            തൃശ്ശൂർ പൂരം: വെടിക്കെട്ട് സാമ്പിളുകൾക്ക് അനുമതി നൽകാൻ ജില്ലാ കളക്ടറുടെ നേതൃത്വത്തിൽ ഉന്നതതല യോഗം
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            കേന്ദ്ര എക്സ്പ്ലോസീവ്സ് സുരക്ഷാ മാനദണ്ഡങ്ങൾ പാലിച്ച് പൂരം എക്സിബിഷനും താലപ്പൊലി ചടങ്ങുകളും നടത്താൻ ധാരണയായി.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 19.3k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+<!-- Card 4: Central (Kottayam) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Rubber sheet smoking and drying house in Meenachil Kottayam with amber rubber sheets hanging, agrarian Kerala rural morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8UpX9L6xty4WEbqYQ3iC5VlL6tBd8sMPBCLnf8BinxD6xv4e_omYAunkqsEVu1_VAuBAKGfIms-tE6SK0MbzkmY5Z_ABSIjotWP2GYC5Pj3hjgfz9T0b3z8VQsML9dgJSlgETIQRtcHX_y6jR72m-QGamzJkxIMyLmm4HTQw34ZMcfU6MgaFsIaQCwRewtkHkIBf4UPjcZCN1wikMmTYJyMHfuIqeUuaTuzgNElRho2W2FpZsWTcj"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">കോട്ടയം</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>വിപണി &amp; കർഷകർ</span>
+<span>•</span>
+<span>3 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            റബ്ബർ താങ്ങുവില 200 രൂപയാക്കി ഉയർത്തണമെന്ന് കർഷക കോർഡിനേഷൻ സമിതി; പ്രക്ഷോഭത്തിന് ആഹ്വാനം
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            വിദേശ റബ്ബർ ഇറക്കുമതി തീരുവ വർദ്ധിപ്പിക്കാൻ കേന്ദ്ര വാണിജ്യ മന്ത്രാലയത്തോട് ശുപാർശ ചെയ്യുമെന്ന് ബോർഡ് ചെയർമാൻ.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 7.5k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+<!-- Card 5: North (Malappuram) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Excited spectators and local football club players on red clay stadium pitch under floodlights in Manjeri Malappuram with high sports enthusiasm and dramatic atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw0ut01f8MGaHy1oO2tY1l6VMv8TvbuWlgIFlkrJfPaN57ThFvnXAnjPBJFwam6v9WOFL6gRiKwZCuK1umWM7NixqCtDjZ0oV6NoYCH2Qdug_uPNuj_JHbUHvW7RTyR2Zc4j8Nu1mVvpZ4U0z0luHQSQC9tfTX4O8kCBYqFLzFvHlFVZ2bQelODYDh0ch9I-KHyn8DXUmf6fSyPgGgUmth5c-_p53L44g0VzJS8R5okyG1jxxoDWd1"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">മലപ്പുറം</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>കായികം &amp; സെവൻസ്</span>
+<span>•</span>
+<span>3.5 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            സന്തോഷ് ട്രോഫി യോഗ്യതാ റൗണ്ട് മലപ്പുറത്ത്: പയ്യനാട് സ്റ്റേഡിയത്തിൽ ടിക്കറ്റ് വിൽപന റെക്കോർഡിലേക്ക്
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            കേരള ടീമിന്റെ പരിശീലന ക്യാമ്പ് മഞ്ചേരിയിൽ തുടങ്ങി; ആദ്യ മത്സരത്തിൽ തമിഴ്‌നാടുമായി ഏറ്റുമുട്ടും.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 14.8k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+<!-- Card 6: North (Kannur) -->
+<article class="bg-surface-pure rounded-xl p-space-md shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Traditional Handloom weaver working on a classic wooden loom in Kannur Kerala weaving organic cotton khadi fabric, warm ambient textile workshop background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa1LENv2QbLjL22TnNYXSSaCguKVNHvpuxS7-5RBpNmR3TsABLQERZop3QpdiW2wZ0Lg3dQbbK5R5eXHYUXjHj6NP0beX-7R2o1gbUGEHCzzKVPty0EwhEDsCoSkk87F9CFJJj4kUnufw0KxPp6rwysp1KtBldVhocK6tiLlPn3fa0Tt9JIqBnV3cd7RCkkV8H06xAYvxz2cbeKKd5slPvv_QL3wmqV6LW8uqgVuig_-qhIaaWuOpa"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-badge text-label-badge px-2 py-0.5 rounded">കണ്ണൂർ</span>
+</div>
+<div class="flex items-center gap-2 mb-1 text-caption font-caption text-secondary">
+<span>കൈത്തറി &amp; പൈതൃകം</span>
+<span>•</span>
+<span>4 മണിക്കൂർ മുൻപ്</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-midnight hover:text-editorial-crimson transition-colors cursor-pointer line-clamp-2">
+            കണ്ണൂർ കൈത്തറിക്ക് യൂറോപ്യൻ വിപണിയിൽ പുത്തൻ ഉണർവ്: അന്താരാഷ്ട്ര കയറ്റുമതി ഓർഡറുകളിൽ വർദ്ധനവ്
+          </h3>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 mt-2">
+            നെയ്ത്ത് സഹകരണ സംഘങ്ങൾ വഴി സുസ്ഥിര തുണിത്തരങ്ങൾ ജർമ്മനിയിലേക്കും യുകെയിലേക്കും നേരിട്ട് വിപണനം നടത്തും.
+          </p>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between text-caption font-caption text-secondary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">visibility</span> 6.9k വായനക്കാർ</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5">പൂർണ്ണരൂപം <span class="material-symbols-outlined text-xs">arrow_forward</span></button>
+</div>
+</article>
+</div>
+<!-- District Newsroom Footer Pagination / Load More -->
+<div class="mt-space-xl text-center">
+<button class="inline-flex items-center gap-2 bg-surface-pure hover:bg-surface-container-high text-on-surface font-body-sm text-body-sm px-6 py-2.5 rounded-lg shadow-sm transition-colors font-bold">
+<span>കൂടുതൽ പ്രാദേശിക വാർത്തകൾ കാണുക</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+</div>
+</section>
+<!-- INTERACTIVE DISTRICT NEWSLETTER & ARCHIVE BAR -->
+<section class="max-w-[1360px] mx-auto px-4 md:px-margin-desktop pb-space-xxl w-full">
+<div class="bg-surface-container rounded-xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-editorial-crimson text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-2xl">newspaper</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-ink-midnight m-0">നിങ്ങളുടെ ജില്ലയിലെ വാർത്തകൾ ദിനവും രാവിലെ വാട്സാപ്പിൽ ലഭിക്കാൻ</h4>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">വാർത്താവീഥി ഡിസ്ട്രിക്റ്റ് ന്യൂസ് ചാനലിൽ സൗജന്യമായി അംഗമാകൂ.</p>
+</div>
+</div>
+<div class="flex items-center gap-2 shrink-0 w-full md:w-auto">
+<select class="bg-surface-pure text-on-surface font-body-sm text-body-sm px-4 py-2.5 rounded-lg shadow-sm focus:outline-none">
+<option>ജില്ല തിരഞ്ഞെടുക്കുക</option>
+<option>തിരുവനന്തപുരം</option>
+<option>കൊല്ലം</option>
+<option>ആലപ്പുഴ</option>
+<option>കോട്ടയം</option>
+<option>എറണാകുളം</option>
+<option>തൃശ്ശൂർ</option>
+<option>കോഴിക്കോട്</option>
+</select>
+<button class="bg-editorial-crimson hover:bg-primary text-on-primary font-body-sm text-body-sm font-bold px-5 py-2.5 rounded-lg shadow-sm transition-colors whitespace-nowrap">
+          ചാനലിൽ ചേരുക
+        </button>
+</div>
+</div>
+</section>
+<!-- Inline Script for District Pill selection micro-interaction -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const pillContainer = document.getElementById('district-pill-container');
+      if (pillContainer) {
+        const buttons = pillContainer.querySelectorAll('button');
+        buttons.forEach(btn => {
+          btn.addEventListener('click', function() {
+            buttons.forEach(b => {
+              b.classList.remove('bg-ink-midnight', 'text-surface-pure');
+              b.classList.add('bg-surface-container', 'text-on-surface');
+            });
+            this.classList.remove('bg-surface-container', 'text-on-surface');
+            this.classList.add('bg-ink-midnight', 'text-surface-pure');
+          });
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-ink-midnight text-surface-pure mt-space-xxl"><div class="max-w-[1360px] mx-auto px-margin-desktop pt-space-xxl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter-desktop mb-space-xl"><div class="lg:col-span-2 pr-0 lg:pr-space-lg"><div class="flex items-center gap-space-md mb-space-md"><img alt="Vartha Veethi Logo" class="h-8 w-auto object-contain brightness-200" src="https://lh3.googleusercontent.com/aida/AEtjO1X5RAdrH3DaCoyIIwCzukOlwxTmzaCexpvGWiLPA7SSKA2yaVTSsYBYWCnCoqOiO4m-fWtqkYTdwJizi_R2fPGeBSqIDGmSDBQTKjnsnSrpkXhwdWGmEmvvLnDInQDuy54m0kBsG5PvAlJVlrqc087Om_c33SZMX9DMY2Qfp40aEfUmPSAw0nyzx7gyQnHYzbuSlpMnCnqMBKaoZS3rfA05pFNr2CmEfdZorMgJBTrTIZYtcx0Al_mrtmk"/><div class="flex flex-col"><span class="font-headline-md text-headline-md text-surface-pure">വാർത്താവീഥി</span><span class="font-caption text-caption text-secondary-fixed-dim">വിശ്വാസ്യതയുടെ നേർവഴി</span></div></div><p class="font-body-sm text-body-sm text-secondary-fixed-dim leading-relaxed mb-space-md">കേരളത്തിൻ്റെ പാരമ്പര്യത്തിലും നിഷ്പക്ഷ മാധ്യമപ്രവർത്തനത്തിലും ഉറച്ചുനിൽക്കുന്ന വാർത്താവീഥി. ഓരോ നിമിഷവും ലോകത്തെ വാർത്തകൾ കൃത്യതയോടെയും അന്തസ്സോടെയും നിങ്ങളുടെ വിരൽത്തുമ്പിൽ എത്തിക്കുന്നു.</p><div class="bg-secondary/20 p-space-md rounded-lg"><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-1">വാർത്താക്കുറിപ്പ് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക</h4><p class="font-caption text-caption text-secondary-fixed-dim mb-space-sm">പ്രധാന വാർത്തകൾ ദിവസവും രാവിലെ നിങ്ങളുടെ ഇൻബോക്സിൽ.</p><div class="flex gap-2"><input class="w-full bg-surface-pure text-on-surface px-3 py-2 font-body-sm text-body-sm rounded focus:outline-none" placeholder="ഇമെയിൽ വിലാസം നൽകുക" type="email"/><button class="bg-editorial-crimson text-on-primary px-4 py-2 font-body-sm text-body-sm font-bold rounded hover:bg-primary transition-colors whitespace-nowrap">ചേരുക</button></div></div></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">വിഭാഗങ്ങൾ</h4><ul class="space-y-2 font-body-sm text-body-sm text-secondary-fixed-dim"><li><a class="hover:text-surface-pure transition-colors" data-path="kerala" href="kerala.html">കേരളം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="national" href="#">ദേശീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="world" href="#">അന്തർദേശീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="politics" href="#">രാഷ്ട്രീയം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="business" href="#">ധനകാര്യം &amp; വിപണി</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="sports" href="#">കായികം</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">പ്രത്യേക പംക്തികൾ</h4><ul class="space-y-2 font-body-sm text-body-sm text-secondary-fixed-dim"><li><a class="hover:text-surface-pure transition-colors" data-path="editorial-opinion" href="#">മുഖപ്രസംഗം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="diaspora-gulf" href="pravasi.html">പ്രവാസി ജാലകം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="cinema-arts" href="#">ചലച്ചിത്ര നിരൂപണം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="tech-lifestyle" href="#">സാങ്കേതികം</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="epaper" href="epaper.html">ഡിജിറ്റൽ ആർക്കൈവ്സ്</a></li><li><a class="hover:text-surface-pure transition-colors" data-path="fact-check" href="#">ഫാക്ട് ചെക്ക് ഡെസ്ക്</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-surface-pure mb-space-md">മൊബൈൽ ആപ്പ്</h4><p class="font-caption text-caption text-secondary-fixed-dim mb-space-sm">എവിടെയും വാർത്തകൾ തത്സമയം അറിയാൻ വാർത്താവീഥി ആപ്പ് ഡൗൺലോഡ് ചെയ്യൂ.</p><div class="flex flex-col gap-2 mb-space-md"><a class="flex items-center gap-2 bg-secondary/30 hover:bg-secondary/50 px-3 py-2 rounded text-surface-pure font-body-sm text-body-sm transition-colors" href="#"><span class="material-symbols-outlined text-xl">android</span><span>Google Play Store</span></a><a class="flex items-center gap-2 bg-secondary/30 hover:bg-secondary/50 px-3 py-2 rounded text-surface-pure font-body-sm text-body-sm transition-colors" href="#"><span class="material-symbols-outlined text-xl">phone_iphone</span><span>Apple App Store</span></a></div><div class="flex items-center gap-2 text-secondary-fixed-dim text-caption font-caption"><span class="material-symbols-outlined text-sm text-editorial-crimson">verified</span><span>പ്രസ് കൗൺസിൽ ഓഫ് ഇന്ത്യ മാർഗ്ഗനിർദ്ദേശങ്ങൾ പാലിക്കുന്നു</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-4 font-caption text-caption text-secondary-fixed-dim"><div class="flex flex-wrap gap-4 items-center"><a class="hover:text-surface-pure" data-path="about" href="#">ഞങ്ങളെക്കുറിച്ച്</a><span>•</span><a class="hover:text-surface-pure" data-path="editorial-ethics" href="#">എഡിറ്റോറിയൽ നയം</a><span>•</span><a class="hover:text-surface-pure" data-path="privacy-policy" href="#">സ്വകാര്യതാ നയം</a><span>•</span><a class="hover:text-surface-pure" data-path="contact" href="#">ബന്ധപ്പെടുക</a><span>•</span><a class="hover:text-surface-pure" data-path="terms" href="#">വ്യവസ്ഥകൾ</a></div><div>© 2025 വാർത്താവീഥി പബ്ലിഷിംഗ് കമ്പനി ലിമിറ്റഡ്. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.</div></div></div></footer>  <script src="assets/js/portal.js"></script>
+</body></html>
